@@ -1,0 +1,7 @@
+package com.app.dao;
+
+public interface RegistrationDAO {
+	
+	public int CreateNewCustomer(String name,String mail,String password);
+
+}

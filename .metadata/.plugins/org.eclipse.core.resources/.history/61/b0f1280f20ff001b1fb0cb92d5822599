@@ -1,0 +1,14 @@
+package com.app.registration.service.impl;
+
+import com.app.model.Customer;
+import com.app.registration.service.RegistrationService;
+
+public class RegistrationServiceImpl implements RegistrationService{
+
+	@Override
+	public Customer CreateNewCustomer() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

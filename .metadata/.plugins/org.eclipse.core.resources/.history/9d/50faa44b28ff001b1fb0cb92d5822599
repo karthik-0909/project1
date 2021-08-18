@@ -1,0 +1,28 @@
+package com.app.service.impl;
+
+import com.app.dao.RegistrationDAO;
+import com.app.dao.impl.RegistrationDAOImpl;
+import com.app.exception.BusinessException;
+import com.app.model.Customer;
+import com.app.service.RegistrtionService;
+
+public class RegistrationServiceImpl implements RegistrtionService{
+	private RegistrationDAO registrationDAO=new RegistrationDAOImpl();
+
+	@Override
+	public int CreateNewCustomer(String name,String mail,String password) throws BusinessException {
+		int creation=0;
+		if(name.length()!=0) {
+			if(mail.matches("[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.]")) {
+				if(password.matches("[a-zA-Z0-9]")) {
+					creation=registrationDAO.CreateNewCustomer(name, mail, password);
+				}else {
+					throw new BusinessException("Invalid password... "+password);
+				}
+			}
+		}
+		
+		return creation;
+	}
+
+}

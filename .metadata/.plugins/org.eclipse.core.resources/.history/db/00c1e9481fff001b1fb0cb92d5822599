@@ -1,0 +1,16 @@
+package com.app.registration.dao.impl;
+
+import com.app.model.Customer;
+import com.app.registration.dao.RegistrationDAO;
+
+public class RegistrationDAOImpl implements RegistrationDAO{
+
+	@Override
+	public int CreateNewCustomer() {
+		int success=0;
+		return success;
+	}
+	
+	
+
+}

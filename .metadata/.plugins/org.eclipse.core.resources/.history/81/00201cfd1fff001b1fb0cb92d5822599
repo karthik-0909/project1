@@ -1,0 +1,9 @@
+package com.app.registration.service;
+
+import com.app.model.Customer;
+
+public interface RegistrationService {
+	
+	public Customer CreateNewCustomer();
+	
+}

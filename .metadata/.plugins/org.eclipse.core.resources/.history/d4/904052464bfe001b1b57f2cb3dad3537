@@ -1,0 +1,5 @@
+package com.app.dao.db.connection;
+
+public class MySqlDbConnection {
+
+}

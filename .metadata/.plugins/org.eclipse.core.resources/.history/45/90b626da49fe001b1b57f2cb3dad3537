@@ -1,0 +1,7 @@
+package com.app.login.service;
+
+public interface CustomerLoginService {
+	
+	public String loginByMail();
+
+}

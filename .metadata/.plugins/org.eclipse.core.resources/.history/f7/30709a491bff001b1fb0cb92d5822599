@@ -1,0 +1,5 @@
+package com.app.registration.dao.impl;
+
+public class RegistrationDAOImpl {
+
+}

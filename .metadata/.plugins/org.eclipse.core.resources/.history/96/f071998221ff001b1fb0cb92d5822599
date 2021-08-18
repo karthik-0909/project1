@@ -1,0 +1,26 @@
+package com.app.registration.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.app.dao.db.connection.MySqlDbConnection;
+import com.app.registration.dao.RegistrationDAO;
+
+public class RegistrationDAOImpl implements RegistrationDAO{
+
+	@Override
+	public int CreateNewCustomer() {
+		int success=0;
+		try(Connection connection=MySqlDbConnection.getconnection()){
+			String sql="";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+		} catch (ClassNotFoundException | SQLException e) {
+			e.printStackTrace();
+		}
+		return success;
+	}
+	
+	
+
+}

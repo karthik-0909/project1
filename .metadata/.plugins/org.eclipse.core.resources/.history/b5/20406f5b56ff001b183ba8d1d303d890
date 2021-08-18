@@ -1,0 +1,9 @@
+package com.app.service;
+
+import com.app.exception.BusinessException;
+
+public interface CustomerLoginService {
+	
+	public boolean loginByMail(String mail,String password) throws BusinessException;
+
+}

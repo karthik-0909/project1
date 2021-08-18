@@ -1,0 +1,13 @@
+package com.app.customerlogin.service.impl;
+
+import com.app.login.service.CustomerLoginService;
+
+public class CustomerLoginserviceImpl  implements CustomerLoginService{
+
+	@Override
+	public String loginByMail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

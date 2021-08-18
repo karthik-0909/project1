@@ -1,0 +1,14 @@
+package com.app.service.impl;
+
+import com.app.exception.BusinessException;
+import com.app.service.CustomerLoginService;
+
+public class CustomerLoginServiceImpl  implements CustomerLoginService{
+
+	@Override
+	public boolean loginByMail(String mail,String password) throws BusinessException {
+		
+		return false;
+	}
+
+}

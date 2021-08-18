@@ -1,0 +1,9 @@
+package com.app.registration.dao;
+
+import com.app.model.Customer;
+
+public interface RegistrationDAO {
+	
+	public int CreateNewCustomer();
+
+}

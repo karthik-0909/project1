@@ -1,0 +1,5 @@
+package com.app.registration.service.impl;
+
+public class RegistrationServiceImpl {
+
+}

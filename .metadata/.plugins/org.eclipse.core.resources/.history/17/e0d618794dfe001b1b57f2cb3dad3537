@@ -1,0 +1,68 @@
+package com.app;
+
+import java.util.Scanner;
+
+import org.apache.log4j.Logger;
+
+
+
+public class Main {
+	 private static Logger log=Logger.getLogger(Main.class);
+
+	public static void main(String[] args) {
+		
+		Scanner scanner=new Scanner(System.in);
+		log.info("Welcome to Quick Shop App");
+		log.info("-----------------------------");
+		
+		int option=0;
+		do {
+		log.info("\n------Main menu------");
+		log.info("1)Login as Customer");
+		log.info("2)Register as New Customer");
+		log.info("3)Login as Employee");
+		log.info("4)Exit");
+		
+		try{
+			option=Integer.parseInt(scanner.nextLine());
+		}catch(NumberFormatException e) {}
+		switch(option){
+		case 1:log.info("------Login Page------");
+		int loginOption=0;
+		do {	
+		log.info("1.Login in with mail");
+			log.info("2.login with Mobilenumber");
+			log.info("3.login in with Username");
+			log.info("4.Back to main menu");
+			try {
+				loginOption=Integer.parseInt(scanner.nextLine());
+			}catch(NumberFormatException e) {}
+			switch(loginOption) {
+			case 1:log.info("Loading...");
+				break;
+			case 2:log.info("Loading...");
+			break;
+			case 3:log.info("Loading...");
+			break;
+			case 4:log.info("Loading Main menu \nsuccessfull");
+			break;
+			default:log.info("Please enter a valid Key from 1-4 .... retry again");
+			}
+		}while(loginOption!=4);
+			
+			break;
+		case 2:log.info("under construction");
+			break;
+		case 3:log.info("under construction");
+			break;
+		case 4:log.info("Thank u for using the Qucik Shop app");
+			break;
+		default :log.warn("plese choose a valid option from 1-4 and retry...");
+			break;
+		
+		}
+		}while(option!=4);
+
+	}
+
+}

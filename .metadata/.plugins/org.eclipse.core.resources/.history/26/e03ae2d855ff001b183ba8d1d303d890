@@ -1,0 +1,14 @@
+package com.app.service.impl;
+
+import com.app.exception.BusinessException;
+import com.app.service.CustomerLoginService;
+
+public class CustomerLoginServiceImpl  implements CustomerLoginService{
+
+	@Override
+	public String loginByMail() throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
