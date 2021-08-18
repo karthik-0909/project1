@@ -3,12 +3,16 @@ package com.app.dao.impl;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.sql.SQLIntegrityConstraintViolationException;
+
+import org.apache.log4j.Logger;
 
 import com.app.dao.RegistrationDAO;
 import com.app.dao.db.connection.MySqlDbConnection;
 import com.app.exception.BusinessException;
 
 public class RegistrationDAOImpl implements RegistrationDAO{
+	private static Logger log=Logger.getLogger(RegistrationDAOImpl.class);
 
 	@Override
 	public int CreateNewCustomer(String name,String mail,String password) throws BusinessException{
@@ -21,8 +25,14 @@ public class RegistrationDAOImpl implements RegistrationDAO{
 			preparedStatement.setString(3, password);
 			
 			success=preparedStatement.executeUpdate();
-		} catch (ClassNotFoundException | SQLException e) {
-			System.out.println(e);
+		}catch(SQLIntegrityConstraintViolationException e){
+			log.error(e);
+			throw new BusinessException("Gmail already exists, use new gmail and try again");
+			
+		}
+		catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException("Internal error occured contact Admin");
 			
 		}
 		return success;

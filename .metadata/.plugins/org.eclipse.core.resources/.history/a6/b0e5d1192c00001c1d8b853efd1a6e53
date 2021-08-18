@@ -1,0 +1,10 @@
+package com.app.service;
+
+import com.app.exception.BusinessException;
+import com.app.model.Product;
+
+public interface ProductViewService {
+	
+	public Product viewProductById(int id) throws BusinessException;
+
+}

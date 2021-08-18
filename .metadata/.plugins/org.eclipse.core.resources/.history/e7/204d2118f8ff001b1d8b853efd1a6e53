@@ -1,0 +1,16 @@
+package com.app.service.impl;
+
+import com.app.exception.BusinessException;
+import com.app.model.Product;
+import com.app.service.EmployeeServices;
+
+public class EmployeeServicesImpl implements EmployeeServices{
+
+	@Override
+	public Product addNewProduct(int id, String name, Double price, String manufacturerName, String category)
+			throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

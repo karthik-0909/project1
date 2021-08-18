@@ -1,0 +1,32 @@
+package com.app.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.app.dao.ProductViewServiceDAO;
+import com.app.dao.db.connection.MySqlDbConnection;
+import com.app.exception.BusinessException;
+import com.app.model.Product;
+import com.mysql.cj.protocol.Resultset;
+
+public class ProductViewServiceDAOImpl implements ProductViewServiceDAO{
+
+	@Override
+	public Product viewProductById(int id) throws BusinessException {
+
+		Product product=null;
+		int success=0;
+		try(Connection connection=MySqlDbConnection.getconnection()){
+			String sql="SELECT id,name,price,manufacturerName,category FROM quickshop.product where id = ?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setInt(1, id);
+		} catch (ClassNotFoundException | SQLException e) {
+			System.out.println(e);
+		}
+
+		return product;
+	}
+
+}

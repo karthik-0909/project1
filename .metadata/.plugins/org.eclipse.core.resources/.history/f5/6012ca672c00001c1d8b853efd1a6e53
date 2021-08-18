@@ -1,0 +1,10 @@
+package com.app.dao;
+
+import com.app.exception.BusinessException;
+import com.app.model.Product;
+
+public interface ProductViewServiceDAO {
+	
+	public Product viewProductById(int id) throws BusinessException;
+
+}

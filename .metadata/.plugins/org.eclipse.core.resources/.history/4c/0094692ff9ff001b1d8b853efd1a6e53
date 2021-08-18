@@ -1,0 +1,13 @@
+package com.app.service;
+
+import java.util.List;
+
+import com.app.exception.BusinessException;
+import com.app.model.Product;
+
+public interface EmployeeServices {
+	
+	
+	public Product addNewProduct(int id,String name,Double price,String manufacturerName,String category) throws BusinessException;
+
+}

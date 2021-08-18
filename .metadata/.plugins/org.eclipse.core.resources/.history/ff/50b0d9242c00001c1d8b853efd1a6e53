@@ -1,0 +1,20 @@
+package com.app.service.impl;
+
+import com.app.dao.ProductViewServiceDAO;
+import com.app.dao.impl.ProductViewServiceDAOImpl;
+import com.app.exception.BusinessException;
+import com.app.model.Product;
+import com.app.service.ProductViewService;
+
+public class ProductViewServiceImpl implements ProductViewService{
+	ProductViewServiceDAO productViewServiceDAO=new ProductViewServiceDAOImpl();
+	Product product=null;
+	@Override
+	public Product viewProductById(int id) throws BusinessException {
+		if(id>0) {
+			product=productViewServiceDAO.viewProductById(id);
+		}
+		return product;
+	}
+
+}
