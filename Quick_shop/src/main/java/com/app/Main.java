@@ -20,6 +20,8 @@ import com.app.service.impl.EmployeeServicesImpl;
 import com.app.service.impl.ProductViewServiceImpl;
 import com.app.service.impl.RegistrationServiceImpl;
 
+import jdk.internal.org.jline.utils.Log;
+
 
 
 public class Main {
@@ -44,7 +46,6 @@ public class Main {
 		}catch(NumberFormatException e) {}
 		switch(option){
 			case 1:
-				boolean success=false;
 				int goback=0;
 				CustomerLoginService customerLoginService= new CustomerLoginServiceImpl();
 					
@@ -62,7 +63,7 @@ public class Main {
 							log.info("\nWelcome "+customer.getName()+", get something new today.");
 							log.info("1.search products");
 							log.info("2.view orders");
-							log.info("3.add to cart");
+							log.info("3.view  cart");
 							log.info("4.logout");
 							log.info("Enter your choice");
 							try {
@@ -71,10 +72,134 @@ public class Main {
 							}
 							switch(s) {
 							case 1:
+								ProductViewService productViewService=new ProductViewServiceImpl();
+								int choice=0;
+								do {
+								log.info("\nWelcome to product view menu");
+								log.info("1.view product by id");
+								log.info("2.view products by name");
+								log.info("3.view products by manufacturerName");
+								log.info("4.view products by category");
+								log.info("5.view products by price");
+								log.info("6.Go back to menu");
+								log.info("Please choose a choice between 1-6");
+								try {
+									choice=Integer.parseInt(scanner.nextLine());
+									}catch(NumberFormatException e){}
+								switch(choice) {
+								case 1:log.info("Enter product id to view product");
+									Product	p=null;
+									int productId=0;
+									try {
+									productId=Integer.parseInt(scanner.nextLine());
+									}catch(NumberFormatException e) {
+										log.warn(e.getMessage());
+									}
+									try {
+										p=productViewService.viewProductById(productId);
+										if(p!=null) {
+											log.info("Product details with id "+productId+" is shown below");
+											log.info(p);
+										}else {
+											log.warn("No product with id "+productId+" please try  with valid id again...");
+										}
+									}catch (BusinessException e) {
+										log.warn(e.getMessage());
+									}
+									break;
+								case 2:
+									List<Product> productList=new ArrayList<>();
+									log.info("enter product name to view products");
+									String productName=scanner.nextLine();
+									try {
+										productList=productViewService.viewProductByName(productName);
+										if(productList!=null && productList.size()>0) {
+											log.info("Products with the name "+productName+" are shown below");
+											for(Product p1:productList) {
+												log.info(p1);
+											}
+										}else {
+											log.warn("No products with the name "+productName);
+										}
+									} catch (BusinessException e) {
+										log.warn(e.getMessage());
+									}
+									break;
+								case 3:
+									List<Product> productListMN=new ArrayList<>();
+									log.info("enter product manufacturername to view products");
+									String manufacturerName=scanner.nextLine();
+									try {
+										productListMN=productViewService.viewProductByManufactureName(manufacturerName);
+										if(productListMN!=null && productListMN.size()>0) {
+											log.info("Products with the manufacturername "+manufacturerName+" are shown below");
+											for(Product p1:productListMN) {
+												log.info(p1);
+											}
+										}else {
+											log.warn("No products with the manufacturername "+manufacturerName);
+										}
+									} catch (BusinessException e) {
+										System.out.println(e.getMessage());
+									}
+									break;
+								case 4:
+									List<Product> categoryList=new ArrayList<>();
+									log.info("enter product category type to view products");
+									String category=scanner.nextLine();
+									try {
+										categoryList=productViewService.viewProductByCategory(category);
+										if(categoryList!=null && categoryList.size()>0) {
+											log.info("Products with the category  type "+category+" are shown below");
+											for(Product p1:categoryList) {
+												log.info(p1);
+											}
+										}else {
+											log.warn("No produsts with the category type "+category);
+										}
+									} catch (BusinessException e) {
+										log.warn(e.getMessage());
+									}
+									break;
+								case 5:
+									List<Product> priceList=new ArrayList<>();
+									log.info("enter product price to view products");
+									double price=0;
+									try {
+									price=Double.parseDouble(scanner.nextLine());
+									}catch(NumberFormatException e) {}
+									try {
+										priceList=productViewService.viewProductByPrice(price);
+										if(priceList!=null && priceList.size()>0) {
+											log.info("Products with the price "+price+" are shown below");
+											for(Product p1:priceList) {
+												log.info(p1);
+											}
+										}else {
+											log.warn("No produsts with the price "+price);
+										}
+										
+									} catch (BusinessException e) {
+										log.warn(e.getMessage());
+									}
+									break;
+								case 6:log.info("Loading menu \n Succeesfull");
+									break;
+								default:log.info("please make a choice between 1-6 and try again...");
+									break;
+								}
+								}while(choice!=6);
 								break;
 							case 2:
 								break;
 							case 3:
+								Log.info("Welcome to your cart");
+								log.info("-------------------------");
+								int customerId=customer.getId();
+								
+								log.info("1.add item to cart");
+								log.info("2.delete item from cart");
+								
 								break;
 							case 4:customer=null;
 								log.info("Logout successfull \nLoading main menu");
@@ -117,7 +242,7 @@ public class Main {
 						loginOption=2;
 					}
 				}catch (BusinessException e) {
-					System.out.println(e.getMessage());
+					log.warn(e.getMessage());
 				}
 				
 				break;
@@ -145,9 +270,9 @@ public class Main {
 				log.info("3.View products");
 				log.info("4.Update the status of order");
 				log.info("5.view orders");
-				log.info("5.search  for customers ");
-				log.info("6.back to main menu");
-				log.info("please choose an option from 1-5...");
+				log.info("6.search  for customers ");
+				log.info("7.back to main menu");
+				log.info("please choose an option from 1-7...");
 				try {
 				op=Integer.parseInt(scanner.nextLine());
 				}catch(NumberFormatException e) {
@@ -183,7 +308,7 @@ public class Main {
 							n=1;
 						}
 					} catch (BusinessException e) {
-						System.out.println(e.getMessage());
+							log.warn(e.getMessage());
 					}
 					}while(n!=1);
 					break;
@@ -204,7 +329,7 @@ public class Main {
 							log.warn("No product with id "+id+" please try  with valid id again...");
 						}
 					} catch (BusinessException e) {
-						System.out.println(e.getMessage());
+						log.warn(e.getMessage());
 					}
 					break;
 				case 3:
@@ -242,7 +367,7 @@ public class Main {
 								log.warn("No product with id "+productId+" please try  with valid id again...");
 							}
 						} catch (BusinessException e) {
-							System.out.println(e.getMessage());
+							log.warn(e.getMessage());
 						}
 						break;
 					case 2:
@@ -260,7 +385,7 @@ public class Main {
 								log.warn("No products with the name "+productName);
 							}
 						} catch (BusinessException e) {
-							System.out.println(e.getMessage());
+							log.warn(e.getMessage());
 						}
 						break;
 					case 3:
@@ -292,12 +417,34 @@ public class Main {
 								for(Product p1:categoryList) {
 									log.info(p1);
 								}
+							}else {
+								log.warn("No produsts with the category type "+category);
 							}
 						} catch (BusinessException e) {
-							System.out.println(e.getMessage());
+							log.warn(e.getMessage());
 						}
 						break;
 					case 5:
+						List<Product> priceList=new ArrayList<>();
+						log.info("enter product price to view products");
+						double price=0;
+						try {
+						price=Double.parseDouble(scanner.nextLine());
+						}catch(NumberFormatException e) {}
+						try {
+							priceList=productViewService.viewProductByPrice(price);
+							if(priceList!=null && priceList.size()>0) {
+								log.info("Products with the price "+price+" are shown below");
+								for(Product p1:priceList) {
+									log.info(p1);
+								}
+							}else {
+								log.warn("No produsts with the price "+price);
+							}
+							
+						} catch (BusinessException e) {
+							log.warn(e.getMessage());
+						}
 						break;
 					case 6:log.info("Loading menu \n Succeesfull");
 							break;
@@ -310,7 +457,9 @@ public class Main {
 					break;
 				case 5:
 					break;
-				case 6:log.info("Loading main menu \nSuccessfull");
+				case 6:
+					break;
+				case 7:log.info("Loading main menu \nSuccessfull");
 					break;
 				default:log.info("please make a choice between 1-6 and try again...");
 					break;

@@ -40,7 +40,7 @@ public class ProductViewServiceImpl implements ProductViewService{
 		if(manuafturerName.length()>0) {
 			productList=productViewServiceDAO.viewProductByManufactureName(manuafturerName);
 		}else {
-			throw new BusinessException(manuafturerName+" manufacturerName is invalid, Please enter a valid name and try again...");
+			throw new BusinessException(manuafturerName+"  is invalid, Please enter a valid manufacturername and try again...");
 		}
 		return productList;
 	}
@@ -51,8 +51,20 @@ public class ProductViewServiceImpl implements ProductViewService{
 		if(category.length()>0) {
 			productList=productViewServiceDAO.viewProductByCategory(category);
 		}else {
-			throw new BusinessException(category+"category is invalid, Please enter a valid name and try again...");
+			throw new BusinessException(category+" is invalid, Please enter a valid category type and try again...");
 		}
+		return productList;
+	}
+
+	@Override
+	public List<Product> viewProductByPrice(double price) throws BusinessException {
+		List<Product> productList=new ArrayList<>();
+		if(price>0 && price<Double.MAX_VALUE) {
+			productList=productViewServiceDAO.viewProductByPrice(price);
+		}else {
+			throw new BusinessException(price+" is invalid please enter a valid price and try again...");
+		}
+		
 		return productList;
 	}
 

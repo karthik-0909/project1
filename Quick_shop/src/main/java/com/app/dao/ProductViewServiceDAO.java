@@ -14,4 +14,7 @@ public interface ProductViewServiceDAO {
 	public List<Product> viewProductByManufactureName(String manuafturerName) throws BusinessException;
 
 	public List<Product> viewProductByCategory(String category) throws BusinessException;
+	
+	public List<Product> viewProductByPrice(double price) throws BusinessException;
+
 }
