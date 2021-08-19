@@ -1,0 +1,17 @@
+package com.app.service.impl;
+
+import java.util.List;
+
+import com.app.exception.BusinessException;
+import com.app.model.Orders;
+import com.app.service.EmployeeViewOrderService;
+
+public class EmployeeViewOrderServiceImpl implements EmployeeViewOrderService{
+
+	@Override
+	public List<Orders> viewNewOrders() throws BusinessException {
+		
+		return null;
+	}
+
+}

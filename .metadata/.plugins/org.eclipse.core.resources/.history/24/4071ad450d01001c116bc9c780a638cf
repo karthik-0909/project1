@@ -1,0 +1,10 @@
+package com.app.dao;
+
+import java.util.List;
+
+import com.app.exception.BusinessException;
+import com.app.model.Orders;
+
+public interface EmployeeViewOrderDAO {
+	public List<Orders> viewNewOrders() throws BusinessException;
+}

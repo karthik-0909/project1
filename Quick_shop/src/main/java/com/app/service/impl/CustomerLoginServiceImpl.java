@@ -7,7 +7,7 @@ import com.app.model.Customer;
 import com.app.service.CustomerLoginService;
 
 public class CustomerLoginServiceImpl  implements CustomerLoginService{
-	LoginDAO loginDAO= new LoginDAOImpl();
+	private LoginDAO loginDAO= new LoginDAOImpl();
 
 	@Override
 	public Customer loginByMail(String mail,String password) throws BusinessException {

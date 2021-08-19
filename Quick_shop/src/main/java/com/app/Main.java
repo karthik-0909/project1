@@ -8,19 +8,23 @@ import org.apache.log4j.Logger;
 
 import com.app.exception.BusinessException;
 import com.app.model.Customer;
+import com.app.model.Orders;
 import com.app.model.Product;
+import com.app.service.CartServices;
 import com.app.service.CustomerLoginService;
 import com.app.service.EmployeeLoginService;
 import com.app.service.EmployeeServices;
+import com.app.service.OrdersServices;
 import com.app.service.ProductViewService;
 import com.app.service.RegistrtionService;
+import com.app.service.impl.CartServicesImpl;
 import com.app.service.impl.CustomerLoginServiceImpl;
 import com.app.service.impl.EmployeeLoginServiceImpl;
 import com.app.service.impl.EmployeeServicesImpl;
+import com.app.service.impl.OrdersServicesImpl;
 import com.app.service.impl.ProductViewServiceImpl;
 import com.app.service.impl.RegistrationServiceImpl;
 
-import jdk.internal.org.jline.utils.Log;
 
 
 
@@ -48,7 +52,6 @@ public class Main {
 			case 1:
 				int goback=0;
 				CustomerLoginService customerLoginService= new CustomerLoginServiceImpl();
-					
 					log.info("------Login Page------");
 					log.info("Enter your gmail address");
 					String mail=scanner.nextLine();
@@ -191,15 +194,135 @@ public class Main {
 								}while(choice!=6);
 								break;
 							case 2:
+								OrdersServices ordersServices=new OrdersServicesImpl();
+								int viewOption=0;
+								log.info("1.View all orders");
+								log.info("2.Update the status of an order");
+								try {
+									viewOption=Integer.parseInt(scanner.nextLine());
+								}catch(NumberFormatException e) {
+									log.warn(e.getMessage());
+								}
+								switch(viewOption) {
+								case 1:
+									List<Orders> viewOrdersList=new ArrayList<>();
+									viewOrdersList=ordersServices.VielAllOrders(customer.getId());
+									if(viewOrdersList.size()>0) {
+										log.info(customer.getName()+" your previous orders are");
+										for(Orders o:viewOrdersList)
+											log.info(o);
+									}else {
+										log.warn("No previous orders , Go make an order today");
+									}
+									break;
+								case 2:
+									int orderId=0;
+									log.info("Please enter order id to update the status to delivered");
+									try {
+										orderId=Integer.parseInt(scanner.nextLine());
+									}catch(NumberFormatException e){
+										log.warn(e.getMessage());
+									}
+									int success=ordersServices.updateTheOrderStatus(orderId,customer.getId());
+									if(success==1) {
+										log.info("OrderStatus of id "+orderId+" updated successfully");
+									}else {
+										log.warn("order status update unsuccessfull, Please check ur orderId and try again...");
+									}
+									
+									break;
+								}
 								break;
 							case 3:
-								Log.info("Welcome to your cart");
+								List<Product> cartList=new ArrayList<>();
+								CartServices cartServices=new CartServicesImpl();
+								log.info("Welcome to your cart");
 								log.info("-------------------------");
 								int customerId=customer.getId();
 								
-								log.info("1.add item to cart");
+								cartList=cartServices.ViewCart(customerId);
+								if(cartList.size()>0) {
+									log.info("Cart loaded successfully");
+									log.info(cartList.size()+" items in your cart");
+									for(Product p1:cartList)
+										log.info(p1);
+									
+								}else {
+									log.warn("your cart is empty");
+								}
+								int cartOption=0;
+								log.info("\n1.add item to cart");
 								log.info("2.delete item from cart");
-								
+								log.info("3.Place an order");
+								try {
+									cartOption=Integer.parseInt(scanner.nextLine());
+								}catch(NumberFormatException e){
+								}
+								switch(cartOption) {
+								case 1:
+								 	log.info("Please enter the product id to add it  to cart");
+								 	int productId=0;
+								 	try {
+								 		productId=Integer.parseInt(scanner.nextLine());
+								 	}catch(NumberFormatException e) {
+								 		log.warn(e.getMessage());
+								 	}
+								 	try {
+								 	int success=cartServices.addItemToCart(customerId,productId);
+								 	
+								 		if(success==1) {
+								 			log.info("Product added succeessfully to cart");
+								 		}else {
+								 			log.info("Adding product unsucceessfull , please try again");
+								 		}
+								 	}catch(BusinessException e) {
+								 		log.warn(e.getMessage());
+								 	}
+									break;
+								case 2:
+									log.info("Please enter the product id to delete it  to cart");
+								 	int deleteProductId=0;
+								 	try {
+								 		deleteProductId=Integer.parseInt(scanner.nextLine());
+								 	}catch(NumberFormatException e) {
+								 		log.warn(e.getMessage());
+								 	}
+								 	int success=cartServices.deleteItemFromCart(deleteProductId);
+								 	if(success==1) {
+							 			log.info("Product deleted succeessfully to cart");
+							 		}else {
+							 			log.info("Deleting product unsucceessfull , please try again");
+							 		}
+									break;
+								case 3:
+									int orderOption=0;
+									do {
+									log.info("1.place the order");
+									log.info("2.go back");
+									try {
+										orderOption=Integer.parseInt(scanner.nextLine());
+									}catch(NumberFormatException e){
+										log.warn(e.getMessage());
+									}
+									switch(orderOption) {
+									case 1:
+										int orderPlaced=cartServices.placeAnOrder(cartList,customer.getId());
+										if(orderPlaced==1) {
+											log.info(" Order placed succeessfully");
+										}else {
+											log.info("Order was unsucceessfull , please try again");
+										}
+										break;
+									case 2:log.info("loading main menu");
+										break;
+									default:log.warn("please enter a valid option  between 1-2 and try again ...");
+										break;
+									}
+								}while(orderOption!=2);
+									break;
+								default:log.warn("please enter a valid option between 1-3");
+								break;
+								}
 								break;
 							case 4:customer=null;
 								log.info("Logout successfull \nLoading main menu");
@@ -270,7 +393,7 @@ public class Main {
 				log.info("3.View products");
 				log.info("4.Update the status of order");
 				log.info("5.view orders");
-				log.info("6.search  for customers ");
+				log.info("6.search  for customers");
 				log.info("7.back to main menu");
 				log.info("please choose an option from 1-7...");
 				try {
@@ -454,10 +577,123 @@ public class Main {
 					}while(choice!=6);
 					break;
 				case 4:
+					int statusOfId=0;
+					log.info("Please enter order id to update status to Shipped");
+					try {
+						statusOfId=Integer.parseInt(scanner.nextLine());
+					}catch(NumberFormatException e) {
+						log.warn(e.getMessage());
+					}
+					try {
+						int success=employeeServices.UpdateStatusOfOrderToShipped(statusOfId);
+						if(success==1) {
+							log.info("OrderStatus of id "+statusOfId+" is successfully updated");
+						}else {
+							log.warn("StatusUpdate unsuccessfull,please enter avalid order id and try again...");
+						}
+					} catch (BusinessException e) {
+						log.warn(e.getMessage());
+					}
 					break;
 				case 5:
+					List<Orders> ordersList= new ArrayList<>();
+					int orderViewOption=0;
+					log.info("\n1.View new orders");
+					log.info("2.view Shipped orders");
+					log.info("3.view Delivered orders");
+					try {
+						orderViewOption=Integer.parseInt(scanner.nextLine());
+					}catch(NumberFormatException e) {
+						log.warn(e.getMessage());
+					}
+					switch(orderViewOption) {
+					case 1:
+						String orderStatus1="Ordered";
+						try {
+							ordersList=employeeServices.viewOrders(orderStatus1);
+							if(ordersList.size()>0) {
+								for(Orders o:ordersList)
+									log.info(o);
+							}else {
+								log.warn("No orders to display");
+							}
+						} catch (BusinessException e) {
+							log.warn(e.getMessage());
+						}
+						break;
+					case 2:String orderStatus2="Shipped";
+						try {
+							ordersList=employeeServices.viewOrders(orderStatus2);
+							if(ordersList.size()>0) {
+								for(Orders o:ordersList)
+									log.info(o);
+							}else {
+								log.warn("No orders to display");
+							}
+						} catch (BusinessException e) {
+							log.warn(e.getMessage());
+						}
+						break;
+					case 3:String orderStatus3="Delivered";
+						try {
+							ordersList=employeeServices.viewOrders(orderStatus3);
+							if(ordersList.size()>0) {
+								for(Orders o:ordersList)
+									log.info(o);
+							}else {
+								log.warn("No orders to display");
+							}
+						} catch (BusinessException e) {
+							log.warn(e.getMessage());
+						}
+						break;
+					}
 					break;
 				case 6:
+					int searchOption=0;
+					log.info("\n1.Search customer by customerId");
+					log.info("2.Search customer by customerName");
+					try {
+						searchOption=Integer.parseInt(scanner.nextLine());
+					}catch(NumberFormatException e) {
+						log.warn(e.getMessage());
+					}
+					switch(searchOption){
+					case 1:int searchCustomerId=0;
+						log.info("Please enter customerId to get customer Details");
+						try {
+							searchCustomerId=Integer.parseInt(scanner.nextLine());
+						}catch(NumberFormatException e) {
+							log.warn(e.getMessage());
+						}
+						try {
+							Customer customer=employeeServices.viewCustomerById(searchCustomerId);
+							if(customer!=null) {
+								log.info(customer);
+							}else {
+								log.warn("No customers with id "+searchCustomerId+", Please check id and try again...");
+							}
+						} catch (BusinessException e) {
+							log.warn(e.getMessage());
+						}
+						break;
+					case 2:
+						List<Customer> customerList= new ArrayList<>();
+						log.info("Please enter customerName to get customer Details");
+						String customerName=scanner.nextLine();
+						try {
+							customerList=employeeServices.viewCustomerByName(customerName);
+							if(customerList.size()>0) {
+								for(Customer c:customerList)
+									log.info(c);
+							}else {
+								log.warn("No customers with name "+customerName+", Please check name and try again...");
+							}
+						} catch (BusinessException e) {
+							log.warn(e.getMessage());
+						}
+						break;
+					}
 					break;
 				case 7:log.info("Loading main menu \nSuccessfull");
 					break;
@@ -466,10 +702,10 @@ public class Main {
 				}
 			}else {
 				log.warn("Login unsuccessfull \n Try again");
-				op=6;
+				op=7;
 			}
 			
-			}while(op!=6);
+			}while(op!=7);
 			break;
 		case 4:log.info("Thank u for using the Qucik Shop app");
 			break;

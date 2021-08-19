@@ -450,3 +450,1245 @@ Loading main menu
 [main] 2021-08-19 09:16:38 INFO  com.app.Main  - 2)Register as New Customer
 [main] 2021-08-19 09:16:38 INFO  com.app.Main  - 3)Login as Employee
 [main] 2021-08-19 09:16:38 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:37:50 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 11:37:50 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 11:37:50 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:37:50 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:37:50 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:37:50 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:37:50 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:38:00 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 11:38:00 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 11:38:11 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 11:38:17 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:38:17 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:38:17 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:38:17 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:38:17 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:38:17 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:38:17 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:40:25 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 11:40:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 11:40:25 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:40:25 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:40:25 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:40:25 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:40:25 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:40:28 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 11:40:28 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 11:40:39 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 11:40:45 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:40:45 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 11:40:45 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:40:45 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:40:45 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:40:45 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:40:45 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:41:54 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 11:41:54 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 11:41:54 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:41:54 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:41:54 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:41:54 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:41:54 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:41:57 INFO  com.app.Main  - ------Welcome to employee login page------
+[main] 2021-08-19 11:41:57 INFO  com.app.Main  - enter Employee username
+[main] 2021-08-19 11:42:08 INFO  com.app.Main  - Enter password
+[main] 2021-08-19 11:42:08 WARN  com.app.Main  - Login unsuccessfull 
+ Try again
+[main] 2021-08-19 11:42:08 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:42:08 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:42:08 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:42:08 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:42:08 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:42:11 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 11:42:11 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 11:42:19 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 11:42:29 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:42:29 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:42:29 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:42:29 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:42:29 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:42:29 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:42:29 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:42:31 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 11:42:31 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 11:43:25 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 11:43:25 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 11:43:25 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:43:25 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:43:25 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:43:25 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:43:25 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:43:29 INFO  com.app.Main  - ------Registration Page------
+[main] 2021-08-19 11:43:29 INFO  com.app.Main  - 1.Registration with mail
+[main] 2021-08-19 11:43:29 INFO  com.app.Main  - 2.Back to main menu
+[main] 2021-08-19 11:43:35 INFO  com.app.Main  - Loading Main menu 
+successfull
+[main] 2021-08-19 11:43:35 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:43:35 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:43:35 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:43:35 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:43:35 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:43:37 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 11:43:37 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 11:43:44 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 11:43:49 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:43:49 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:43:49 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:43:49 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:43:49 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:43:49 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:43:49 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:43:53 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 11:43:53 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 11:44:51 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 11:44:51 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 11:44:51 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:44:51 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:44:51 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:44:51 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:44:51 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:44:55 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 11:44:55 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 11:45:03 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 11:45:11 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:45:11 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:45:11 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:45:11 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:45:11 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:45:11 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:45:11 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - 1 items in your cart
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - Product [id=1, name=iphone12, price=59000.0, manufacturerName=null, category=null]
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - 1.add item to cart
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:45:17 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:54:00 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:54:03 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 11:54:03 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 11:54:11 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 11:54:18 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:54:18 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:54:18 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:54:18 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:54:18 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:54:18 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:54:18 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:54:20 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 11:54:20 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 11:54:20 ERROR com.app.dao.impl.CartServicesDAOImpl  - java.sql.SQLException: Column 'manufacturerName' not found.
+[main] 2021-08-19 11:54:20 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:54:20 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:54:20 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:54:20 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:54:20 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:55:37 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 11:55:37 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 11:55:37 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:55:37 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:55:37 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:55:37 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:55:37 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:55:43 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 11:55:43 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 11:55:52 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 11:55:57 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:55:57 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:55:57 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:55:57 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:55:57 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:55:57 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:55:57 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 11:55:59 INFO  com.app.dao.impl.CartServicesDAOImpl  - Product [id=1, name=iphone12, price=59000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - 1 items in your cart
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - Product [id=1, name=iphone12, price=59000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - 1.add item to cart
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:55:59 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:56:53 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 11:56:53 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 11:56:53 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:56:53 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:56:53 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:56:53 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:56:53 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:56:54 INFO  com.app.Main  - ------Welcome to employee login page------
+[main] 2021-08-19 11:56:54 INFO  com.app.Main  - enter Employee username
+[main] 2021-08-19 11:57:13 INFO  com.app.Main  - Enter password
+[main] 2021-08-19 11:57:18 WARN  com.app.Main  - Login unsuccessfull 
+ Try again
+[main] 2021-08-19 11:57:18 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:57:18 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:57:18 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:57:18 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:57:18 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:57:28 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 11:57:28 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 11:57:37 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 11:57:42 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:57:42 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:57:42 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:57:42 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:57:42 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:57:42 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:57:42 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - 2 items in your cart
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - Product [id=1, name=iphone12, price=59000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - 1.add item to cart
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:57:44 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:59:00 INFO  com.app.Main  - Logout successfull 
+Loading main menu
+[main] 2021-08-19 11:59:00 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:59:00 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:59:00 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:59:00 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:59:00 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:59:02 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 11:59:02 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 11:59:13 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 11:59:18 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:59:18 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 11:59:18 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:59:18 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:59:18 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:59:18 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:59:18 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:59:26 INFO  com.app.Main  - Logout successfull 
+Loading main menu
+[main] 2021-08-19 11:59:26 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 11:59:26 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 11:59:26 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 11:59:26 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 11:59:26 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 11:59:28 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 11:59:28 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 11:59:36 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 11:59:41 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:59:41 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 11:59:41 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:59:41 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:59:41 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:59:41 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:59:41 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 11:59:45 WARN  com.app.Main  - your cart is empty
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - 1.add item to cart
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 11:59:45 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 12:09:36 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 12:09:36 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 12:09:36 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 12:09:36 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 12:09:36 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 12:09:36 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 12:09:36 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 12:09:41 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 12:09:41 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 12:09:49 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 12:09:55 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 12:09:55 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 12:09:55 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 12:09:55 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 12:09:55 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 12:09:55 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 12:09:55 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 12:09:57 INFO  com.app.Main  - 
+Welcome to product view menu
+[main] 2021-08-19 12:09:57 INFO  com.app.Main  - 1.view product by id
+[main] 2021-08-19 12:09:57 INFO  com.app.Main  - 2.view products by name
+[main] 2021-08-19 12:09:57 INFO  com.app.Main  - 3.view products by manufacturerName
+[main] 2021-08-19 12:09:57 INFO  com.app.Main  - 4.view products by category
+[main] 2021-08-19 12:09:57 INFO  com.app.Main  - 5.view products by price
+[main] 2021-08-19 12:09:57 INFO  com.app.Main  - 6.Go back to menu
+[main] 2021-08-19 12:09:57 INFO  com.app.Main  - Please choose a choice between 1-6
+[main] 2021-08-19 12:09:59 INFO  com.app.Main  - enter product name to view products
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - Products with the name iphone are shown below
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - Product [id=1, name=iphone, price=59000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - Product [id=3, name=iphone, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - 
+Welcome to product view menu
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - 1.view product by id
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - 2.view products by name
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - 3.view products by manufacturerName
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - 4.view products by category
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - 5.view products by price
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - 6.Go back to menu
+[main] 2021-08-19 12:10:03 INFO  com.app.Main  - Please choose a choice between 1-6
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 12:11:58 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 12:12:01 INFO  com.app.Main  - ------Welcome to employee login page------
+[main] 2021-08-19 12:12:01 INFO  com.app.Main  - enter Employee username
+[main] 2021-08-19 12:12:10 INFO  com.app.Main  - Enter password
+[main] 2021-08-19 12:12:13 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-19 12:12:13 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-19 12:12:13 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-19 12:12:13 INFO  com.app.Main  - 3.View products
+[main] 2021-08-19 12:12:13 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-19 12:12:13 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-19 12:12:13 INFO  com.app.Main  - 6.search  for customers 
+[main] 2021-08-19 12:12:13 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-19 12:12:13 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-19 12:12:19 INFO  com.app.Main  - 
+Welcome to product view menu
+[main] 2021-08-19 12:12:19 INFO  com.app.Main  - 1.view product by id
+[main] 2021-08-19 12:12:19 INFO  com.app.Main  - 2.view products by name
+[main] 2021-08-19 12:12:19 INFO  com.app.Main  - 3.view products by manufacturerName
+[main] 2021-08-19 12:12:19 INFO  com.app.Main  - 4.view products by category
+[main] 2021-08-19 12:12:19 INFO  com.app.Main  - 5.view products by price
+[main] 2021-08-19 12:12:19 INFO  com.app.Main  - 6.Go back to menu
+[main] 2021-08-19 12:12:19 INFO  com.app.Main  - Please choose a choice between 1-6
+[main] 2021-08-19 12:12:25 INFO  com.app.Main  - enter product manufacturername to view products
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - Products with the manufacturername App are shown below
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - Product [id=1, name=iphone12, price=59000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - 
+Welcome to product view menu
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - 1.view product by id
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - 2.view products by name
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - 3.view products by manufacturerName
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - 4.view products by category
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - 5.view products by price
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - 6.Go back to menu
+[main] 2021-08-19 12:12:32 INFO  com.app.Main  - Please choose a choice between 1-6
+[main] 2021-08-19 12:36:17 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 12:36:17 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 12:36:17 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 12:36:17 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 12:36:17 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 12:36:17 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 12:36:17 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 13:04:21 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 13:04:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 13:04:21 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 13:04:21 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 13:04:21 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 13:04:21 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 13:04:21 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 13:04:30 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 13:04:30 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 13:04:44 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 13:04:51 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 13:04:51 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 13:04:51 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 13:04:51 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 13:04:51 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 13:04:51 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 13:04:51 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 13:04:56 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 13:04:56 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 13:04:56 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 13:04:56 INFO  com.app.Main  - 2 items in your cart
+[main] 2021-08-19 13:04:56 INFO  com.app.Main  - Product [id=1, name=iphone12, price=59000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 13:04:56 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 13:04:56 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 13:04:56 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 13:04:56 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 13:05:04 INFO  com.app.Main  - Please enter the product id to add it  to cart
+[main] 2021-08-19 13:05:31 WARN  com.app.Main  - 0  is invalid,please enter a valid id  and try again...
+[main] 2021-08-19 13:05:31 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 13:05:31 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 13:05:31 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 13:05:31 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 13:05:31 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 13:05:31 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 13:05:31 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 13:06:03 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 13:06:03 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 13:06:03 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 13:06:03 INFO  com.app.Main  - 2 items in your cart
+[main] 2021-08-19 13:06:03 INFO  com.app.Main  - Product [id=1, name=iphone12, price=59000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 13:06:03 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 13:06:03 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 13:06:03 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 13:06:03 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 13:06:14 INFO  com.app.Main  - Please enter the product id to add it  to cart
+[main] 2021-08-19 13:06:21 INFO  com.app.Main  - Adding product unsucceessfull , please try again
+[main] 2021-08-19 13:06:21 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 13:06:21 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 13:06:21 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 13:06:21 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 13:06:21 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 13:06:21 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 13:06:21 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 13:06:25 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 13:06:25 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 13:06:25 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 13:06:25 INFO  com.app.Main  - 2 items in your cart
+[main] 2021-08-19 13:06:25 INFO  com.app.Main  - Product [id=1, name=iphone12, price=59000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 13:06:25 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 13:06:25 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 13:06:25 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 13:06:25 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 13:09:39 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 13:09:39 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 13:09:39 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 13:09:39 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 13:09:39 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 13:09:39 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 13:09:39 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 13:09:42 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 13:09:42 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 13:09:53 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 13:10:11 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 13:10:11 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 13:10:11 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 13:10:11 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 13:10:11 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 13:10:11 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 13:10:11 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 13:10:16 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 13:10:16 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 13:10:16 WARN  com.app.Main  - your cart is empty
+[main] 2021-08-19 13:10:16 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 13:10:16 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 13:10:16 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 13:10:21 INFO  com.app.Main  - Please enter the product id to add it  to cart
+[main] 2021-08-19 13:10:28 ERROR com.app.dao.impl.CartServicesDAOImpl  - java.sql.SQLException: No value specified for parameter 2
+[main] 2021-08-19 13:10:28 WARN  com.app.Main  - Internal error occured contact Admin
+[main] 2021-08-19 13:10:28 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 13:10:28 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 13:10:28 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 13:10:28 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 13:10:28 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 13:10:28 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 13:10:28 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 13:10:54 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 13:10:54 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 13:10:54 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 13:10:54 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 13:10:54 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 13:10:54 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 13:10:54 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 13:10:59 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 13:10:59 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 13:11:19 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 13:11:26 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 13:11:26 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 13:11:26 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 13:11:26 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 13:11:26 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 13:11:26 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 13:11:26 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 13:11:28 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 13:11:28 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 13:11:28 WARN  com.app.Main  - your cart is empty
+[main] 2021-08-19 13:11:28 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 13:11:28 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 13:11:28 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 13:11:30 INFO  com.app.Main  - Please enter the product id to add it  to cart
+[main] 2021-08-19 13:11:32 INFO  com.app.Main  - Product added succeessfully to cart
+[main] 2021-08-19 13:11:32 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 13:11:32 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 13:11:32 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 13:11:32 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 13:11:32 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 13:11:32 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 13:11:32 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 13:11:54 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 13:11:54 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 13:11:54 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 13:11:54 INFO  com.app.Main  - 1 items in your cart
+[main] 2021-08-19 13:11:54 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 13:11:54 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 13:11:54 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 13:11:54 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 16:55:01 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 16:55:01 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 16:55:01 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 16:55:01 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 16:55:01 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 16:55:01 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 16:55:01 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 16:55:05 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 16:55:05 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 16:55:15 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 16:55:20 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 16:55:20 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 16:55:20 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 16:55:20 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 16:55:20 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 16:55:20 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 16:55:20 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 16:55:23 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 16:55:23 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 16:55:23 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 16:55:23 INFO  com.app.Main  - 1 items in your cart
+[main] 2021-08-19 16:55:23 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 16:55:23 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 16:55:23 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 16:55:23 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 16:55:28 INFO  com.app.Main  - 1.place the order
+[main] 2021-08-19 16:55:28 INFO  com.app.Main  - 2.go back
+[main] 2021-08-19 16:55:30 INFO  com.app.Main  -  Order placed succeessfully
+[main] 2021-08-19 16:55:30 INFO  com.app.Main  - 1.place the order
+[main] 2021-08-19 16:55:30 INFO  com.app.Main  - 2.go back
+[main] 2021-08-19 16:55:43 INFO  com.app.Main  - loading main menu
+[main] 2021-08-19 16:55:43 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 16:55:43 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 16:55:43 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 16:55:43 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 16:55:43 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 16:55:43 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 16:55:43 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 17:01:42 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 17:01:42 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 17:01:42 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 17:01:42 INFO  com.app.Main  - 1 items in your cart
+[main] 2021-08-19 17:01:42 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 17:01:42 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 17:01:42 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 17:01:42 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 17:01:53 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 17:01:53 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 17:01:53 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 17:01:53 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 17:01:53 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 17:01:53 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 17:01:53 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 17:02:01 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 17:02:01 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 17:02:12 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 17:02:19 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 17:02:19 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 17:02:19 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 17:02:19 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 17:02:19 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 17:02:19 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 17:02:19 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 17:02:28 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 17:02:28 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 17:02:28 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 17:02:28 INFO  com.app.Main  - 2 items in your cart
+[main] 2021-08-19 17:02:28 INFO  com.app.Main  - Product [id=1, name=iphone12, price=59000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 17:02:28 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 17:02:28 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 17:02:28 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 17:02:28 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 17:02:36 INFO  com.app.Main  - 1.place the order
+[main] 2021-08-19 17:02:36 INFO  com.app.Main  - 2.go back
+[main] 2021-08-19 17:02:37 INFO  com.app.Main  -  Order placed succeessfully
+[main] 2021-08-19 17:02:37 INFO  com.app.Main  - 1.place the order
+[main] 2021-08-19 17:02:37 INFO  com.app.Main  - 2.go back
+[main] 2021-08-19 17:02:42 INFO  com.app.Main  - loading main menu
+[main] 2021-08-19 17:02:42 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 17:02:42 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 17:02:42 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 17:02:42 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 17:02:42 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 17:02:42 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 17:02:42 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 17:02:43 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 17:02:43 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 17:02:43 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 17:02:43 INFO  com.app.Main  - 2 items in your cart
+[main] 2021-08-19 17:02:43 INFO  com.app.Main  - Product [id=1, name=iphone12, price=59000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 17:02:43 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 17:02:43 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 17:02:43 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 17:02:43 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 17:07:42 INFO  com.app.Main  - Please enter the product id to delete it  to cart
+[main] 2021-08-19 17:07:47 INFO  com.app.Main  - Product deleted succeessfully to cart
+[main] 2021-08-19 17:07:47 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 17:07:47 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 17:07:47 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 17:07:47 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 17:07:47 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 17:07:47 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 17:07:47 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 17:07:56 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 17:07:56 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 17:07:56 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 17:07:56 INFO  com.app.Main  - 1 items in your cart
+[main] 2021-08-19 17:07:56 INFO  com.app.Main  - Product [id=3, name=iphone12ProMax, price=120000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-19 17:07:56 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 17:07:56 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 17:07:56 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 17:08:04 INFO  com.app.Main  - Please enter the product id to delete it  to cart
+[main] 2021-08-19 17:08:08 INFO  com.app.Main  - Deleting product unsucceessfull , please try again
+[main] 2021-08-19 17:08:08 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 17:08:08 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 17:08:08 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 17:08:08 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 17:08:08 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 17:08:08 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 17:08:08 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 17:08:14 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 17:08:14 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 17:08:14 WARN  com.app.Main  - your cart is empty
+[main] 2021-08-19 17:08:14 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 17:08:14 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 17:08:14 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 17:08:18 INFO  com.app.Main  - Please enter the product id to add it  to cart
+[main] 2021-08-19 17:08:23 INFO  com.app.Main  - Product added succeessfully to cart
+[main] 2021-08-19 17:08:23 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 17:08:23 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 17:08:23 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 17:08:23 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 17:08:23 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 17:08:23 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 17:08:23 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 17:08:27 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 17:08:27 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 17:08:27 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 17:08:27 INFO  com.app.Main  - 1 items in your cart
+[main] 2021-08-19 17:08:27 INFO  com.app.Main  - Product [id=2, name=NikeSneakers, price=3000.0, manufacturerName=Nike, category=shoes]
+[main] 2021-08-19 17:08:27 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 17:08:27 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 17:08:27 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 17:08:33 INFO  com.app.Main  - 1.place the order
+[main] 2021-08-19 17:08:33 INFO  com.app.Main  - 2.go back
+[main] 2021-08-19 17:08:37 INFO  com.app.Main  -  Order placed succeessfully
+[main] 2021-08-19 17:08:37 INFO  com.app.Main  - 1.place the order
+[main] 2021-08-19 17:08:37 INFO  com.app.Main  - 2.go back
+[main] 2021-08-19 17:08:43 INFO  com.app.Main  - loading main menu
+[main] 2021-08-19 17:08:43 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 17:08:43 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 17:08:43 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 17:08:43 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 17:08:43 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 17:08:43 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 17:08:43 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 17:08:59 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 17:08:59 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 17:08:59 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 17:08:59 INFO  com.app.Main  - 1 items in your cart
+[main] 2021-08-19 17:08:59 INFO  com.app.Main  - Product [id=2, name=NikeSneakers, price=3000.0, manufacturerName=Nike, category=shoes]
+[main] 2021-08-19 17:08:59 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 17:08:59 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 17:08:59 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 17:12:45 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 17:12:45 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 17:12:45 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 17:12:45 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 17:12:45 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 17:12:45 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 17:12:45 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 18:52:53 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 18:52:53 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 18:52:53 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 18:52:53 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 18:52:53 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 18:52:53 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 18:52:53 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 18:52:57 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 18:52:57 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 18:53:05 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 18:53:12 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 18:53:12 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 18:53:12 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 18:53:12 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 18:53:12 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 18:53:12 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 18:53:12 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 18:53:18 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 18:53:18 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 18:58:22 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 18:58:22 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 18:58:22 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 18:58:22 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 18:58:22 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 18:58:22 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 18:58:22 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 18:58:26 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 18:58:26 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 18:58:35 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 18:58:40 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 18:58:40 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 18:58:40 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 18:58:40 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 18:58:40 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 18:58:53 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 18:58:53 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 18:59:03 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 18:59:08 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 18:59:08 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 18:59:08 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 18:59:08 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 18:59:08 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 18:59:08 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 18:59:08 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 18:59:15 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 18:59:15 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - karthikyour previous orders are
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - Orders [id=2, productId=1, status=Ordered, customerId=2, amount=59000.0]
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - Orders [id=3, productId=3, status=Ordered, customerId=2, amount=120000.0]
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - Orders [id=4, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - Orders [id=4, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 18:59:18 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 19:00:41 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 19:00:41 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 19:00:41 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 19:00:41 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 19:00:41 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 19:00:41 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 19:00:41 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 19:00:44 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 19:00:44 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 19:00:58 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 19:01:04 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 19:01:04 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 19:01:04 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 19:01:04 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 19:01:04 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 19:01:04 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 19:01:04 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 19:01:07 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 19:01:07 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 19:01:09 INFO  com.app.Main  - naveenyour previous orders are
+[main] 2021-08-19 19:01:09 INFO  com.app.Main  - Orders [id=1, productId=3, status=Ordered, customerId=12, amount=120000.0]
+[main] 2021-08-19 19:01:09 INFO  com.app.Main  - Orders [id=1, productId=3, status=Ordered, customerId=12, amount=120000.0]
+[main] 2021-08-19 19:01:09 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 19:01:09 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 19:01:09 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 19:01:09 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 19:01:09 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 19:01:09 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 19:01:09 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 19:02:23 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 19:02:23 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 19:02:23 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 19:02:23 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 19:02:23 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 19:02:23 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 19:02:23 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 19:02:26 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 19:02:26 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 19:02:38 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 19:06:01 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 19:06:01 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 19:06:01 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 19:06:01 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 19:06:01 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 19:06:01 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 19:06:01 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 19:06:03 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 19:06:03 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 19:06:05 INFO  com.app.Main  - naveenyour previous orders are
+[main] 2021-08-19 19:06:05 INFO  com.app.Main  - Orders [id=1, productId=3, status=Ordered, customerId=12, amount=120000.0]
+[main] 2021-08-19 19:06:05 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 19:06:05 INFO  com.app.Main  - 
+Welcome naveen, get something new today.
+[main] 2021-08-19 19:06:05 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 19:06:05 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 19:06:05 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 19:06:05 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 19:06:05 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:21:35 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 20:21:35 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 20:21:35 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 20:21:35 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 20:21:35 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 20:21:35 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 20:21:35 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 20:21:38 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 20:21:38 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 20:21:49 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 20:21:56 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:21:56 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:21:56 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:21:56 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:21:56 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:21:56 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:21:56 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:21:58 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 20:21:58 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 20:21:58 WARN  com.app.Main  - your cart is empty
+[main] 2021-08-19 20:21:58 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 20:21:58 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 20:21:58 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 20:22:02 INFO  com.app.Main  - Please enter the product id to add it  to cart
+[main] 2021-08-19 20:22:10 INFO  com.app.Main  - Product added succeessfully to cart
+[main] 2021-08-19 20:22:10 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:22:10 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:22:10 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:22:10 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:22:10 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:22:10 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:22:10 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:22:17 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 20:22:17 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 20:22:17 INFO  com.app.Main  - Cart loaded successfully
+[main] 2021-08-19 20:22:17 INFO  com.app.Main  - 1 items in your cart
+[main] 2021-08-19 20:22:17 INFO  com.app.Main  - Product [id=2, name=NikeSneakers, price=3000.0, manufacturerName=Nike, category=shoes]
+[main] 2021-08-19 20:22:17 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 20:22:17 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 20:22:17 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 20:22:22 INFO  com.app.Main  - 1.place the order
+[main] 2021-08-19 20:22:22 INFO  com.app.Main  - 2.go back
+[main] 2021-08-19 20:22:26 INFO  com.app.Main  -  Order placed succeessfully
+[main] 2021-08-19 20:22:26 INFO  com.app.Main  - 1.place the order
+[main] 2021-08-19 20:22:26 INFO  com.app.Main  - 2.go back
+[main] 2021-08-19 20:22:28 INFO  com.app.Main  - loading main menu
+[main] 2021-08-19 20:22:28 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:22:28 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:22:28 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:22:28 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:22:28 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:22:28 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:22:28 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:22:32 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 20:22:32 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - karthik your previous orders are
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - Orders [id=2, productId=1, status=Ordered, customerId=2, amount=59000.0]
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - Orders [id=3, productId=3, status=Ordered, customerId=2, amount=120000.0]
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - Orders [id=4, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - Orders [id=5, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:22:35 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:22:46 INFO  com.app.Main  - Welcome to your cart
+[main] 2021-08-19 20:22:46 INFO  com.app.Main  - -------------------------
+[main] 2021-08-19 20:22:46 WARN  com.app.Main  - your cart is empty
+[main] 2021-08-19 20:22:46 INFO  com.app.Main  - 
+1.add item to cart
+[main] 2021-08-19 20:22:46 INFO  com.app.Main  - 2.delete item from cart
+[main] 2021-08-19 20:22:46 INFO  com.app.Main  - 3.Place an order
+[main] 2021-08-19 20:22:53 INFO  com.app.Main  - Please enter the product id to delete it  to cart
+[main] 2021-08-19 20:22:56 WARN  com.app.Main  - For input string: ""
+[main] 2021-08-19 20:22:56 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 20:22:56 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 20:22:56 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 20:22:56 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 20:22:56 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 20:23:07 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 20:23:07 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 20:23:42 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 20:23:49 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:23:49 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:23:49 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:23:49 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:23:49 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:23:49 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:23:49 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:23:55 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 20:23:55 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 20:23:58 INFO  com.app.Main  - Please enter order id to update the status
+[main] 2021-08-19 20:25:16 INFO  com.app.Main  - OrderStatus of id 1 updated successfully
+[main] 2021-08-19 20:25:16 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:25:16 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:25:16 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:25:16 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:25:16 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:25:16 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:25:16 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:25:52 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 20:25:52 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - karthik your previous orders are
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - Orders [id=2, productId=1, status=Ordered, customerId=2, amount=59000.0]
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - Orders [id=3, productId=3, status=Ordered, customerId=2, amount=120000.0]
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - Orders [id=4, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - Orders [id=5, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:25:54 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:32:40 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 20:32:40 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 20:32:40 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 20:32:40 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 20:32:40 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 20:32:40 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 20:32:40 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 20:32:44 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 20:32:44 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 20:32:54 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 20:33:03 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:33:03 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:33:03 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:33:03 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:33:03 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:33:03 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:33:03 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:33:07 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 20:33:07 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - karthik your previous orders are
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - Orders [id=2, productId=1, status=Ordered, customerId=2, amount=59000.0]
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - Orders [id=3, productId=3, status=Ordered, customerId=2, amount=120000.0]
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - Orders [id=4, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - Orders [id=5, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:33:08 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:33:18 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 20:33:18 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 20:33:20 INFO  com.app.Main  - Please enter order id to update the status
+[main] 2021-08-19 20:33:23 ERROR com.app.dao.impl.OrdersServicesDAOImpl  - java.sql.SQLException: No value specified for parameter 2
+[main] 2021-08-19 20:33:23 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 20:33:23 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 20:33:23 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 20:33:23 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 20:33:23 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 20:33:45 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 20:33:45 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 20:33:45 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 20:33:45 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 20:33:45 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 20:33:45 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 20:33:45 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 20:33:50 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 20:33:50 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 20:33:57 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 20:34:09 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:34:09 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:34:09 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:34:09 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:34:09 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:34:09 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:34:09 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:34:18 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 20:34:18 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 20:34:20 INFO  com.app.Main  - Please enter order id to update the status
+[main] 2021-08-19 20:34:22 INFO  com.app.Main  - OrderStatus of id 2 updated successfully
+[main] 2021-08-19 20:34:23 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:34:23 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:34:23 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:34:23 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:34:23 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:34:23 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:34:23 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:34:37 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 20:34:37 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - karthik your previous orders are
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - Orders [id=2, productId=1, status=Delivered, customerId=2, amount=59000.0]
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - Orders [id=3, productId=3, status=Ordered, customerId=2, amount=120000.0]
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - Orders [id=4, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - Orders [id=5, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:34:39 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:34:48 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 20:34:48 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - karthik your previous orders are
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - Orders [id=2, productId=1, status=Delivered, customerId=2, amount=59000.0]
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - Orders [id=3, productId=3, status=Ordered, customerId=2, amount=120000.0]
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - Orders [id=4, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - Orders [id=5, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:34:49 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 20:35:10 INFO  com.app.Main  - 1.View all orders
+[main] 2021-08-19 20:35:10 INFO  com.app.Main  - 2.Update the status of an order
+[main] 2021-08-19 20:35:13 INFO  com.app.Main  - Please enter order id to update the status
+[main] 2021-08-19 20:35:14 WARN  com.app.Main  - order status update unsuccessfull, Please try again...
+[main] 2021-08-19 20:35:14 INFO  com.app.Main  - Login successuful
+[main] 2021-08-19 20:35:14 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-08-19 20:35:14 INFO  com.app.Main  - 1.search products
+[main] 2021-08-19 20:35:14 INFO  com.app.Main  - 2.view orders
+[main] 2021-08-19 20:35:14 INFO  com.app.Main  - 3.view  cart
+[main] 2021-08-19 20:35:14 INFO  com.app.Main  - 4.logout
+[main] 2021-08-19 20:35:14 INFO  com.app.Main  - Enter your choice
+[main] 2021-08-19 22:34:47 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 22:34:47 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 22:34:47 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 22:34:47 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 22:34:47 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 22:34:47 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 22:34:47 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 22:34:51 INFO  com.app.Main  - ------Welcome to employee login page------
+[main] 2021-08-19 22:34:51 INFO  com.app.Main  - enter Employee username
+[main] 2021-08-19 22:34:56 INFO  com.app.Main  - Enter password
+[main] 2021-08-19 22:35:04 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-19 22:35:04 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-19 22:35:04 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-19 22:35:04 INFO  com.app.Main  - 3.View products
+[main] 2021-08-19 22:35:04 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-19 22:35:04 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-19 22:35:04 INFO  com.app.Main  - 6.search  for customers 
+[main] 2021-08-19 22:35:04 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-19 22:35:04 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-19 22:35:16 INFO  com.app.Main  - /n1.View new orders
+[main] 2021-08-19 22:35:16 INFO  com.app.Main  - 2.view Shipped orders
+[main] 2021-08-19 22:35:16 INFO  com.app.Main  - 3.view Delivered orders
+[main] 2021-08-19 22:35:36 ERROR com.app.service.impl.EmployeeLoginServiceImpl  - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+[main] 2021-08-19 22:35:36 WARN  com.app.Main  - Internal error occured contact Admin
+[main] 2021-08-19 22:35:36 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-19 22:35:36 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-19 22:35:36 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-19 22:35:36 INFO  com.app.Main  - 3.View products
+[main] 2021-08-19 22:35:36 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-19 22:35:36 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-19 22:35:36 INFO  com.app.Main  - 6.search  for customers 
+[main] 2021-08-19 22:35:36 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-19 22:35:36 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-19 22:37:03 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 22:37:03 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 22:37:03 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 22:37:03 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 22:37:03 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 22:37:03 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 22:37:03 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 22:37:06 INFO  com.app.Main  - ------Welcome to employee login page------
+[main] 2021-08-19 22:37:06 INFO  com.app.Main  - enter Employee username
+[main] 2021-08-19 22:37:13 INFO  com.app.Main  - Enter password
+[main] 2021-08-19 22:37:17 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-19 22:37:17 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-19 22:37:17 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-19 22:37:17 INFO  com.app.Main  - 3.View products
+[main] 2021-08-19 22:37:17 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-19 22:37:17 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-19 22:37:17 INFO  com.app.Main  - 6.search  for customers 
+[main] 2021-08-19 22:37:17 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-19 22:37:17 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-19 22:37:20 INFO  com.app.Main  - 
+1.View new orders
+[main] 2021-08-19 22:37:20 INFO  com.app.Main  - 2.view Shipped orders
+[main] 2021-08-19 22:37:20 INFO  com.app.Main  - 3.view Delivered orders
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - Orders [id=3, productId=3, status=Ordered, customerId=2, amount=120000.0]
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - Orders [id=4, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - Orders [id=5, productId=2, status=Ordered, customerId=2, amount=3000.0]
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - 3.View products
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - 6.search  for customers 
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-19 22:37:26 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-19 22:37:33 INFO  com.app.Main  - 
+1.View new orders
+[main] 2021-08-19 22:37:33 INFO  com.app.Main  - 2.view Shipped orders
+[main] 2021-08-19 22:37:33 INFO  com.app.Main  - 3.view Delivered orders
+[main] 2021-08-19 22:37:37 WARN  com.app.Main  - No orders to display
+[main] 2021-08-19 22:37:37 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-19 22:37:37 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-19 22:37:37 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-19 22:37:37 INFO  com.app.Main  - 3.View products
+[main] 2021-08-19 22:37:37 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-19 22:37:37 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-19 22:37:37 INFO  com.app.Main  - 6.search  for customers 
+[main] 2021-08-19 22:37:37 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-19 22:37:37 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-19 22:37:45 INFO  com.app.Main  - 
+Welcome to product view menu
+[main] 2021-08-19 22:37:45 INFO  com.app.Main  - 1.view product by id
+[main] 2021-08-19 22:37:45 INFO  com.app.Main  - 2.view products by name
+[main] 2021-08-19 22:37:45 INFO  com.app.Main  - 3.view products by manufacturerName
+[main] 2021-08-19 22:37:45 INFO  com.app.Main  - 4.view products by category
+[main] 2021-08-19 22:37:45 INFO  com.app.Main  - 5.view products by price
+[main] 2021-08-19 22:37:45 INFO  com.app.Main  - 6.Go back to menu
+[main] 2021-08-19 22:37:45 INFO  com.app.Main  - Please choose a choice between 1-6
+[main] 2021-08-19 22:40:30 INFO  com.app.Main  - Loading menu 
+ Succeesfull
+[main] 2021-08-19 22:40:30 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-19 22:40:30 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-19 22:40:30 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-19 22:40:30 INFO  com.app.Main  - 3.View products
+[main] 2021-08-19 22:40:30 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-19 22:40:30 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-19 22:40:30 INFO  com.app.Main  - 6.search  for customers 
+[main] 2021-08-19 22:40:30 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-19 22:40:30 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-19 22:40:36 INFO  com.app.Main  - 
+1.View new orders
+[main] 2021-08-19 22:40:36 INFO  com.app.Main  - 2.view Shipped orders
+[main] 2021-08-19 22:40:36 INFO  com.app.Main  - 3.view Delivered orders
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - Orders [id=1, productId=3, status=Delivered, customerId=12, amount=120000.0]
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - Orders [id=2, productId=1, status=Delivered, customerId=2, amount=59000.0]
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - 3.View products
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - 6.search  for customers 
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-19 22:40:38 INFO  com.app.Main  - please choose an option from 1-7...

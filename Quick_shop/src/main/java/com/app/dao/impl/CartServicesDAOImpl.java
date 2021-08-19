@@ -21,16 +21,18 @@ public class CartServicesDAOImpl implements CartServicesDAO{
 		Product product=null;
 		List<Product> productList=new ArrayList<>();
 		try(Connection connection=MySqlDbConnection.getconnection()){
-			String sql="SELECT p.id,p.name,p.price FROM quickshop.cart c join quickshop.product p where c.customerId=? and c.productId=p.id";
+			String sql="SELECT p.id,p.name,p.price,p.manufacturerName,p.category FROM quickshop.cart c join quickshop.product p where c.customerId=? and c.productId=p.id";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setInt(1, customerId);
 			
 			ResultSet resultSet=preparedStatement.executeQuery();
-			if(resultSet.next()) {
+			while(resultSet.next()) {
 				product=new Product();
 				product.setId(resultSet.getInt("id"));
 				product.setName(resultSet.getString("name"));
 				product.setPrice(resultSet.getDouble("price"));
+				product.setManufacturerName(resultSet.getString("manufacturerName"));
+				product.setCategory(resultSet.getString("category"));
 				productList.add(product);
 			
 			}
@@ -38,7 +40,59 @@ public class CartServicesDAOImpl implements CartServicesDAO{
 			log.error(e);
 			throw new BusinessException("Internal error occured contact Admin");
 		}
-		return null;
+		return productList;
+	}
+	@Override
+	public int addItemToCart(int customerId, int productId) throws BusinessException {
+		int success=0;
+		try(Connection connection=MySqlDbConnection.getconnection()){
+			String sql="insert into quickshop.cart(customerId,productId) values(?,?)";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setInt(1, customerId);
+			preparedStatement.setInt(2, productId);
+			
+			success=preparedStatement.executeUpdate();
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException("Internal error occured contact Admin");
+		}
+		return success;
+	}
+	@Override
+	public int deleteItemFromCart(int productId) throws BusinessException {
+		int success=0;
+		try(Connection connection=MySqlDbConnection.getconnection()){
+			String sql="delete from quickshop.cart where productId=?";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			preparedStatement.setInt(1, productId);
+			
+			success=preparedStatement.executeUpdate();
+			
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException("Internal error occured contact Admin");
+		}
+		return success;
+	}
+	@Override
+	public int placeAnOrder(List<Product> cartList, int customerId) throws BusinessException{
+		int success=0;
+		try(Connection connection=MySqlDbConnection.getconnection()){
+			for(int i=0;i<cartList.size();i++) {
+				String sql="insert into quickshop.orders(productId,customerId,amount) values(?,?,?)";
+				PreparedStatement preparedStatement=connection.prepareStatement(sql);
+				preparedStatement.setInt(1, cartList.get(i).getId());
+				preparedStatement.setInt(2, customerId);
+				preparedStatement.setDouble(3, cartList.get(i).getPrice());
+			
+				success=preparedStatement.executeUpdate();
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException("Internal error occured contact Admin");
+		}
+		return success;
 	}
 
 }

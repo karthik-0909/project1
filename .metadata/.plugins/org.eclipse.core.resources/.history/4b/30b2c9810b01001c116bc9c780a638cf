@@ -1,0 +1,34 @@
+package com.app.dao.impl;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.app.dao.EmployeeViewOrderDAO;
+import com.app.dao.db.connection.MySqlDbConnection;
+import com.app.exception.BusinessException;
+import com.app.model.Orders;
+import com.app.service.impl.EmployeeLoginServiceImpl;
+
+public class EmployeeViewOrderDAOImpl implements EmployeeViewOrderDAO{
+	private static Logger log=Logger.getLogger(EmployeeViewOrderDAOImpl.class);
+	@Override
+	public List<Orders> viewNewOrders() throws BusinessException {
+		List<Orders> orderSList= new ArrayList<>();
+		try(Connection connection=MySqlDbConnection.getconnection()){
+			
+		
+		
+		}catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BusinessException("Internal error occured contact Admin");
+		}
+		return null;
+	}
+	
+	
+
+}

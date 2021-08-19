@@ -1,0 +1,19 @@
+package com.app.dao.impl;
+
+import java.util.List;
+
+import com.app.dao.EmployeeViewOrderDAO;
+import com.app.exception.BusinessException;
+import com.app.model.Orders;
+
+public class EmployeeViewDAOImpl implements EmployeeViewOrderDAO{
+
+	@Override
+	public List<Orders> viewNewOrders() throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

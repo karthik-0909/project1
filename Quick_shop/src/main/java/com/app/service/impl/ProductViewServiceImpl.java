@@ -10,7 +10,7 @@ import com.app.model.Product;
 import com.app.service.ProductViewService;
 
 public class ProductViewServiceImpl implements ProductViewService{
-	ProductViewServiceDAO productViewServiceDAO=new ProductViewServiceDAOImpl();
+	private ProductViewServiceDAO productViewServiceDAO=new ProductViewServiceDAOImpl();
 	Product product=null;
 	
 	@Override

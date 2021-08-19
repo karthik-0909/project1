@@ -49,9 +49,9 @@ public class ProductViewServiceDAOImpl implements ProductViewServiceDAO{
 		Product product=null;
 		List<Product> productList=new ArrayList<>();
 		try(Connection connection=MySqlDbConnection.getconnection()){
-			String sql="select id,name,price,manufacturerName,category from quickshop.product where name=?";
+			String sql="select id,name,price,manufacturerName,category from quickshop.product where name like ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			preparedStatement.setString(1, name);
+			preparedStatement.setString(1, "%"+name+"%");
 			
 			ResultSet resultSet=preparedStatement.executeQuery();
 			while(resultSet.next()) {
@@ -75,9 +75,9 @@ public class ProductViewServiceDAOImpl implements ProductViewServiceDAO{
 		Product product=null;
 		List<Product> productList=new ArrayList<>();
 		try(Connection connection=MySqlDbConnection.getconnection()){
-			String sql="select id,name,price,manufacturerName,category from quickshop.product where manufacturername=?";
+			String sql="select id,name,price,manufacturerName,category from quickshop.product where manufacturername like ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			preparedStatement.setString(1, manuafturerName);
+			preparedStatement.setString(1, "%"+manuafturerName+"%");
 			
 			ResultSet resultSet=preparedStatement.executeQuery();
 			while(resultSet.next()) {
@@ -102,9 +102,9 @@ public class ProductViewServiceDAOImpl implements ProductViewServiceDAO{
 		Product product=null;
 		List<Product> productList=new ArrayList<>();
 		try(Connection connection=MySqlDbConnection.getconnection()){
-			String sql="select id,name,price,manufacturerName,category from quickshop.product where category=?";
+			String sql="select id,name,price,manufacturerName,category from quickshop.product where category like ?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
-			preparedStatement.setString(1, category);
+			preparedStatement.setString(1, "%"+category+"%");
 			
 			ResultSet resultSet=preparedStatement.executeQuery();
 			while(resultSet.next()) {

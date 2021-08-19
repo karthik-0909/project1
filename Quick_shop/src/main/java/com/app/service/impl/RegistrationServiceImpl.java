@@ -3,7 +3,6 @@ package com.app.service.impl;
 import com.app.dao.RegistrationDAO;
 import com.app.dao.impl.RegistrationDAOImpl;
 import com.app.exception.BusinessException;
-import com.app.model.Customer;
 import com.app.service.RegistrtionService;
 
 public class RegistrationServiceImpl implements RegistrtionService{
