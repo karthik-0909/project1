@@ -1692,3 +1692,273 @@ Welcome to product view menu
 [main] 2021-08-19 22:40:38 INFO  com.app.Main  - 6.search  for customers 
 [main] 2021-08-19 22:40:38 INFO  com.app.Main  - 7.back to main menu
 [main] 2021-08-19 22:40:38 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-19 23:32:08 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 23:32:08 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 23:32:08 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 23:32:08 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 23:32:08 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 23:32:08 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 23:32:08 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 23:32:10 INFO  com.app.Main  - ------Welcome to employee login page------
+[main] 2021-08-19 23:32:10 INFO  com.app.Main  - enter Employee username
+[main] 2021-08-19 23:32:17 INFO  com.app.Main  - Enter password
+[main] 2021-08-19 23:32:20 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-19 23:32:20 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-19 23:32:20 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-19 23:32:20 INFO  com.app.Main  - 3.View products
+[main] 2021-08-19 23:32:20 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-19 23:32:20 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-19 23:32:20 INFO  com.app.Main  - 6.search  for customers
+[main] 2021-08-19 23:32:20 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-19 23:32:20 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-19 23:32:23 INFO  com.app.Main  - 
+1.Search customer by customerId
+[main] 2021-08-19 23:32:23 INFO  com.app.Main  - 2.Search customer by customerName
+[main] 2021-08-19 23:32:25 INFO  com.app.Main  - Please enter customerId to get customer Details
+[main] 2021-08-19 23:32:28 INFO  com.app.Main  - Customer [id=2, name=karthik, mail=karthik@gmail.com, password=Karthik99, mobileNumber=0, orderId=0]
+[main] 2021-08-19 23:32:28 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 23:32:28 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 23:32:28 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 23:32:28 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 23:32:28 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 23:34:38 INFO  com.app.Main  - ------Welcome to employee login page------
+[main] 2021-08-19 23:34:38 INFO  com.app.Main  - enter Employee username
+[main] 2021-08-19 23:34:44 INFO  com.app.Main  - Enter password
+[main] 2021-08-19 23:34:47 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-19 23:34:47 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-19 23:34:47 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-19 23:34:47 INFO  com.app.Main  - 3.View products
+[main] 2021-08-19 23:34:47 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-19 23:34:47 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-19 23:34:47 INFO  com.app.Main  - 6.search  for customers
+[main] 2021-08-19 23:34:47 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-19 23:34:47 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-19 23:34:53 INFO  com.app.Main  - 
+1.Search customer by customerId
+[main] 2021-08-19 23:34:53 INFO  com.app.Main  - 2.Search customer by customerName
+[main] 2021-08-19 23:34:56 INFO  com.app.Main  - Please enter customerName to get customer Details
+[main] 2021-08-19 23:35:03 INFO  com.app.Main  - Customer [id=2, name=karthik, mail=karthik@gmail.com, password=Karthik99, mobileNumber=0, orderId=0]
+[main] 2021-08-19 23:35:03 INFO  com.app.Main  - Customer [id=3, name=karthik, mail=karthik99@gmail.com, password=Karthik99, mobileNumber=0, orderId=0]
+[main] 2021-08-19 23:35:03 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 23:35:03 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 23:35:03 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 23:35:03 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 23:35:03 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 23:43:56 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-19 23:43:56 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-19 23:43:56 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 23:43:56 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 23:43:56 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 23:43:56 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 23:43:56 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-19 23:44:11 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-19 23:44:11 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-19 23:44:35 INFO  com.app.Main  - Enter your password
+[main] 2021-08-19 23:44:53 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-19 23:44:53 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-19 23:44:53 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-19 23:44:53 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-19 23:44:53 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-20 09:12:21 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-20 09:12:21 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 09:12:21 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-20 09:12:21 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-20 09:12:21 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-20 09:12:21 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-20 09:12:21 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-20 09:12:29 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-20 09:12:29 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-20 09:12:41 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 09:12:42 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-20 09:12:42 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-20 09:12:42 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-20 09:12:42 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-20 09:12:42 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-20 09:12:44 INFO  com.app.Main  - ------Registration Page------
+[main] 2021-08-20 09:12:44 INFO  com.app.Main  - 1.Registration with mail
+[main] 2021-08-20 09:12:44 INFO  com.app.Main  - 2.Back to main menu
+[main] 2021-08-20 09:12:47 INFO  com.app.Main  - enter your name
+[main] 2021-08-20 09:12:47 INFO  com.app.Main  - Enter your Mail id
+[main] 2021-08-20 09:12:48 INFO  com.app.Main  - enter your password
+[main] 2021-08-20 09:12:49 WARN  com.app.Main  - Invalid name
+ Name should be of minimum 3 characters
+And numbers and special characters are not allowed
+[main] 2021-08-20 09:12:49 INFO  com.app.Main  - 1.Registration with mail
+[main] 2021-08-20 09:12:49 INFO  com.app.Main  - 2.Back to main menu
+[main] 2021-08-20 09:12:55 INFO  com.app.Main  - enter your name
+[main] 2021-08-20 09:13:09 INFO  com.app.Main  - Enter your Mail id
+[main] 2021-08-20 09:13:24 INFO  com.app.Main  - enter your password
+[main] 2021-08-20 09:13:32 INFO  com.app.Main  - Registration Successfull 
+please login
+[main] 2021-08-20 09:13:32 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-20 09:13:32 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-20 09:13:32 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-20 09:13:32 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-20 09:13:32 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-20 09:21:11 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-20 09:21:11 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 09:21:11 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-20 09:21:11 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-20 09:21:11 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-20 09:21:11 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-20 09:21:11 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-20 09:21:17 INFO  com.app.Main  - ------Registration Page------
+[main] 2021-08-20 09:21:17 INFO  com.app.Main  - 1.Registration with mail
+[main] 2021-08-20 09:21:17 INFO  com.app.Main  - 2.Back to main menu
+[main] 2021-08-20 09:21:27 WARN  com.app.Main  - Please enter a valid Key from 1-2 .... retry again
+[main] 2021-08-20 09:21:27 INFO  com.app.Main  - 1.Registration with mail
+[main] 2021-08-20 09:21:27 INFO  com.app.Main  - 2.Back to main menu
+[main] 2021-08-20 09:21:35 INFO  com.app.Main  - enter your name
+[main] 2021-08-20 09:21:40 INFO  com.app.Main  - enter your lastname
+[main] 2021-08-20 09:21:44 INFO  com.app.Main  - Enter your Mail id
+[main] 2021-08-20 09:21:57 INFO  com.app.Main  - enter your password
+[main] 2021-08-20 09:22:16 INFO  com.app.Main  - Registration Successfull 
+please login
+[main] 2021-08-20 09:22:16 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-20 09:22:16 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-20 09:22:16 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-20 09:22:16 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-20 09:22:16 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-20 09:22:47 INFO  com.app.Main  - ------Registration Page------
+[main] 2021-08-20 09:22:47 INFO  com.app.Main  - 1.Registration with mail
+[main] 2021-08-20 09:22:47 INFO  com.app.Main  - 2.Back to main menu
+[main] 2021-08-20 09:22:50 INFO  com.app.Main  - enter your name
+[main] 2021-08-20 09:23:02 INFO  com.app.Main  - enter your lastname
+[main] 2021-08-20 09:23:04 INFO  com.app.Main  - Enter your Mail id
+[main] 2021-08-20 09:23:15 INFO  com.app.Main  - enter your password
+[main] 2021-08-20 09:23:23 INFO  com.app.Main  - Registration Successfull 
+please login
+[main] 2021-08-20 09:23:23 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-20 09:23:23 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-20 09:23:23 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-20 09:23:23 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-20 09:23:23 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-20 09:23:41 INFO  com.app.Main  - ------Login Page------
+[main] 2021-08-20 09:23:41 INFO  com.app.Main  - Enter your gmail address
+[main] 2021-08-20 09:23:49 INFO  com.app.Main  - Enter your password
+[main] 2021-08-20 09:23:58 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-20 09:23:58 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-20 09:23:58 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-20 09:23:58 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-20 09:23:58 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-20 09:24:05 INFO  com.app.Main  - ------Welcome to employee login page------
+[main] 2021-08-20 09:24:05 INFO  com.app.Main  - enter Employee username
+[main] 2021-08-20 09:24:10 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 09:24:15 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-20 09:24:15 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-20 09:24:15 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-20 09:24:15 INFO  com.app.Main  - 3.View products
+[main] 2021-08-20 09:24:15 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-20 09:24:15 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-20 09:24:15 INFO  com.app.Main  - 6.search  for customers
+[main] 2021-08-20 09:24:15 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-20 09:24:15 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-20 09:24:18 INFO  com.app.Main  - please enter product id
+[main] 2021-08-20 09:25:20 INFO  com.app.Main  - enter product name
+[main] 2021-08-20 09:25:37 INFO  com.app.Main  - enter product price
+[main] 2021-08-20 09:25:42 INFO  com.app.Main  - enter product manufacturer name
+[main] 2021-08-20 09:25:50 INFO  com.app.Main  - enter product category
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - product created successfully
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - Product [id=4, name=iphonecover, price=300.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - 3.View products
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - 6.search  for customers
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-20 09:26:11 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-20 09:26:18 INFO  com.app.Main  - please enter product id
+[main] 2021-08-20 09:26:27 INFO  com.app.Main  - enter product name
+[main] 2021-08-20 09:26:42 INFO  com.app.Main  - enter product price
+[main] 2021-08-20 09:26:46 INFO  com.app.Main  - enter product manufacturer name
+[main] 2021-08-20 09:27:03 INFO  com.app.Main  - enter product category
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - product created successfully
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - Product [id=5, name=AddidasSneakers, price=2500.0, manufacturerName=Addidas, category=Shoes]
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - 3.View products
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - 6.search  for customers
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-20 09:27:15 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-20 09:28:23 INFO  com.app.Main  - please enter product id
+[main] 2021-08-20 09:28:31 INFO  com.app.Main  - enter product name
+[main] 2021-08-20 09:28:37 INFO  com.app.Main  - enter product price
+[main] 2021-08-20 09:28:41 INFO  com.app.Main  - enter product manufacturer name
+[main] 2021-08-20 09:28:46 INFO  com.app.Main  - enter product category
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - product created successfully
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - Product [id=6, name=iphone11, price=50000.0, manufacturerName=Apple, category=Mobiles]
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - 3.View products
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - 6.search  for customers
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-20 09:28:53 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-20 09:29:08 INFO  com.app.Main  - please enter product id
+[main] 2021-08-20 09:30:12 INFO  com.app.Main  - enter product name
+[main] 2021-08-20 09:30:30 INFO  com.app.Main  - enter product price
+[main] 2021-08-20 09:30:34 INFO  com.app.Main  - enter product manufacturer name
+[main] 2021-08-20 09:30:46 INFO  com.app.Main  - enter product category
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - product created successfully
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - Product [id=7, name=Miphone, price=20000.0, manufacturerName=Xoami, category=Mobiles]
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - 3.View products
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - 6.search  for customers
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-20 09:30:52 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-20 09:30:59 INFO  com.app.Main  - please enter product id
+[main] 2021-08-20 09:31:09 INFO  com.app.Main  - enter product name
+[main] 2021-08-20 09:31:15 INFO  com.app.Main  - enter product price
+[main] 2021-08-20 09:34:07 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-08-20 09:34:07 INFO  com.app.Main  - -----------------------------
+[main] 2021-08-20 09:34:07 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-08-20 09:34:07 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-08-20 09:34:07 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-08-20 09:34:07 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-08-20 09:34:07 INFO  com.app.Main  - 4)Exit
+[main] 2021-08-20 09:34:12 INFO  com.app.Main  - ------Welcome to employee login page------
+[main] 2021-08-20 09:34:12 INFO  com.app.Main  - enter Employee username
+[main] 2021-08-20 09:34:16 INFO  com.app.Main  - Enter password
+[main] 2021-08-20 09:34:20 INFO  com.app.Main  - Login Successfull
+[main] 2021-08-20 09:34:20 INFO  com.app.Main  - 1.Add a new product
+[main] 2021-08-20 09:34:20 INFO  com.app.Main  - 2.Delete  a product
+[main] 2021-08-20 09:34:20 INFO  com.app.Main  - 3.View products
+[main] 2021-08-20 09:34:20 INFO  com.app.Main  - 4.Update the status of order
+[main] 2021-08-20 09:34:20 INFO  com.app.Main  - 5.view orders
+[main] 2021-08-20 09:34:20 INFO  com.app.Main  - 6.search  for customers
+[main] 2021-08-20 09:34:20 INFO  com.app.Main  - 7.back to main menu
+[main] 2021-08-20 09:34:20 INFO  com.app.Main  - please choose an option from 1-7...
+[main] 2021-08-20 09:34:26 INFO  com.app.Main  - please enter product id
+[main] 2021-08-20 09:34:30 INFO  com.app.Main  - enter product name
+[main] 2021-08-20 09:34:35 INFO  com.app.Main  - enter product price
+[main] 2021-08-20 09:34:40 WARN  com.app.Main  - For input string: "d"
+[main] 2021-08-20 09:34:40 INFO  com.app.Main  - enter product manufacturer name
+[main] 2021-08-20 09:34:59 INFO  com.app.Main  - enter product category
+[main] 2021-08-20 09:35:02 WARN  com.app.Main  - please enter valid details
+[main] 2021-08-20 09:35:02 INFO  com.app.Main  - please enter product id
+[main] 2021-08-20 12:27:40 ERROR com.app.dao.impl.RegistrationDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'rakesh@gmail.com' for key 'customer.mail_UNIQUE'
+[main] 2021-08-20 12:28:35 ERROR com.app.dao.impl.RegistrationDAOImpl  - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'rakesh@gmail.com' for key 'customer.mail_UNIQUE'

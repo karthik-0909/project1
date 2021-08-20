@@ -15,14 +15,15 @@ public class RegistrationDAOImpl implements RegistrationDAO{
 	private static Logger log=Logger.getLogger(RegistrationDAOImpl.class);
 
 	@Override
-	public int CreateNewCustomer(String name,String mail,String password) throws BusinessException{
+	public int CreateNewCustomer(String name,String lastName,String mail,String password) throws BusinessException{
 		int success=0;
 		try(Connection connection=MySqlDbConnection.getconnection()){
-			String sql="insert into quickshop.customer (name,mail,password) values(?,?,?);";
+			String sql="insert into quickshop.customer (name,lastName,mail,password) values(?,?,?,?);";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setString(1, name);
-			preparedStatement.setString(2, mail);
-			preparedStatement.setString(3, password);
+			preparedStatement.setString(2, lastName);
+			preparedStatement.setString(3, mail);
+			preparedStatement.setString(4, password);
 			
 			success=preparedStatement.executeUpdate();
 		}catch(SQLIntegrityConstraintViolationException e){

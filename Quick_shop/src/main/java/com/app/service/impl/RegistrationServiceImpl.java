@@ -9,14 +9,14 @@ public class RegistrationServiceImpl implements RegistrtionService{
 	private RegistrationDAO registrationDAO=new RegistrationDAOImpl();
 
 	@Override
-	public int CreateNewCustomer(String name,String mail,String password) throws BusinessException {
+	public int CreateNewCustomer(String name,String lastName,String mail,String password) throws BusinessException {
 		int s=0;
 		if(name.length()!=0 && name.matches("[a-zA-Z]{3,20}")) {
 			
 			if(mail.matches("[a-z0-9]{5,20}[@gmail.com]{10}")) {
 				
 				if(password.matches("[A-Z]{1}[a-zA-Z0-9]{7,30}")) {
-					s=registrationDAO.CreateNewCustomer(name, mail, password);
+					s=registrationDAO.CreateNewCustomer(name,lastName,mail, password);
 				}
 				else {
 					throw new BusinessException("Invalid password... "+password+ 

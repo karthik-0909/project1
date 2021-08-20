@@ -354,12 +354,14 @@ public class Main {
 				int succes=0;
 				log.info("enter your name");
 				String name=scanner.nextLine();
+				log.info("enter your lastname");
+				String lastName=scanner.nextLine();
 				log.info("Enter your Mail id");
 				String mailid=scanner.nextLine();
 				log.info("enter your password");
 				String password1=scanner.nextLine();
 				try {
-					succes=registrtionService.CreateNewCustomer(name, mailid, password1);
+					succes=registrtionService.CreateNewCustomer(name,lastName,mailid, password1);
 					if(succes==1) {
 						log.info("Registration Successfull \nplease login");
 						loginOption=2;
@@ -379,7 +381,7 @@ public class Main {
 			break;
 		case 3:
 			EmployeeLoginService employeeLoginService=new EmployeeLoginServiceImpl();
-			int op=0;
+			int employeeOption=0;
 			log.info("------Welcome to employee login page------");
 			log.info("enter Employee username");
 			String username=scanner.nextLine();
@@ -397,12 +399,13 @@ public class Main {
 				log.info("7.back to main menu");
 				log.info("please choose an option from 1-7...");
 				try {
-				op=Integer.parseInt(scanner.nextLine());
+					employeeOption=Integer.parseInt(scanner.nextLine());
 				}catch(NumberFormatException e) {
 					log.warn(e.getMessage());
+					log.warn("Inavalid entry for id");
 				}
 				EmployeeServices employeeServices=new EmployeeServicesImpl();
-				switch(op) {
+				switch(employeeOption) {
 				case 1:
 					Product product=null;
 					int n=0;
@@ -413,11 +416,18 @@ public class Main {
 						id=Integer.parseInt(scanner.nextLine());
 					}catch(NumberFormatException e) {
 						log.warn(e.getMessage());
+						log.warn("Inavalid entry for id");
 					}
 					log.info("enter product name");
 					String name=scanner.nextLine();
 					log.info("enter product price");
-					double price=Double.parseDouble(scanner.nextLine());
+					double price=0;
+					try {
+					price=Double.parseDouble(scanner.nextLine());
+					}catch(NumberFormatException e) {
+						log.warn(e.getMessage());
+						log.warn("Inavalid entry for price");
+					}
 					log.info("enter product manufacturer name");
 					String manufacturerName=scanner.nextLine();
 					log.info("enter product category");
@@ -442,6 +452,7 @@ public class Main {
 					id=Integer.parseInt(scanner.nextLine());
 					}catch(NumberFormatException e) {
 						log.warn(e.getMessage());
+						log.warn("Inavalid entry for id");
 					}
 					int num;
 					try {
@@ -471,6 +482,7 @@ public class Main {
 						choice=Integer.parseInt(scanner.nextLine());
 					}catch(NumberFormatException e) {
 						log.warn(e.getMessage());
+						log.warn("Inavalid entry for id");
 					}
 					switch(choice) {
 					case 1:log.info("Enter product id to view product");
@@ -480,6 +492,7 @@ public class Main {
 						productId=Integer.parseInt(scanner.nextLine());
 						}catch(NumberFormatException e) {
 							log.warn(e.getMessage());
+							log.warn("Inavalid entry for id");
 						}
 						try {
 							p=productViewService.viewProductById(productId);
@@ -553,7 +566,10 @@ public class Main {
 						double price=0;
 						try {
 						price=Double.parseDouble(scanner.nextLine());
-						}catch(NumberFormatException e) {}
+						}catch(NumberFormatException e) {
+							log.warn(e);
+							log.warn("Inavalid entry for price");
+						}
 						try {
 							priceList=productViewService.viewProductByPrice(price);
 							if(priceList!=null && priceList.size()>0) {
@@ -583,6 +599,7 @@ public class Main {
 						statusOfId=Integer.parseInt(scanner.nextLine());
 					}catch(NumberFormatException e) {
 						log.warn(e.getMessage());
+						log.warn("Inavalid entry for id");
 					}
 					try {
 						int success=employeeServices.UpdateStatusOfOrderToShipped(statusOfId);
@@ -605,6 +622,7 @@ public class Main {
 						orderViewOption=Integer.parseInt(scanner.nextLine());
 					}catch(NumberFormatException e) {
 						log.warn(e.getMessage());
+						log.warn("Inavalid entry for interger");
 					}
 					switch(orderViewOption) {
 					case 1:
@@ -702,18 +720,18 @@ public class Main {
 				}
 			}else {
 				log.warn("Login unsuccessfull \n Try again");
-				op=7;
+				employeeOption=7;
 			}
 			
-			}while(op!=7);
+			}while(employeeOption!=7);
 			break;
 		case 4:log.info("Thank u for using the Qucik Shop app");
 			break;
 		default :log.warn("plese choose a valid option from 1-4 and retry...");
 			break;
-		
 		}
 		}while(option!=4);
+		scanner.close();
 
 	}
 
