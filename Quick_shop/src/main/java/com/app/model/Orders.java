@@ -7,8 +7,15 @@ public class Orders {
 	private String status;
 	private int customerId;
 	private double amount;
+	private String productName;
 	
 	
+	public String getProductName() {
+		return productName;
+	}
+	public void setProductName(String productName) {
+		this.productName = productName;
+	}
 	public Orders() {
 		// TODO Auto-generated constructor stub
 	}
@@ -44,12 +51,13 @@ public class Orders {
 	public void setAmount(double amount) {
 		this.amount = amount;
 	}
-
 	@Override
 	public String toString() {
 		return "Orders [id=" + id + ", productId=" + productId + ", status=" + status + ", customerId=" + customerId
-				+ ", amount=" + amount + "]";
+				+ ", amount=" + amount + ", productName=" + productName + "]";
 	}
+
+	
 	
 	
 

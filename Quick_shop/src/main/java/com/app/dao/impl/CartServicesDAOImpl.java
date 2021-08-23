@@ -80,13 +80,21 @@ public class CartServicesDAOImpl implements CartServicesDAO{
 		int success=0;
 		try(Connection connection=MySqlDbConnection.getconnection()){
 			for(int i=0;i<cartList.size();i++) {
-				String sql="insert into quickshop.orders(productId,customerId,amount) values(?,?,?)";
+				String sql="insert into quickshop.orders(productId,customerId,amount,productName) values(?,?,?,?)";
 				PreparedStatement preparedStatement=connection.prepareStatement(sql);
 				preparedStatement.setInt(1, cartList.get(i).getId());
 				preparedStatement.setInt(2, customerId);
 				preparedStatement.setDouble(3, cartList.get(i).getPrice());
+				preparedStatement.setString(4, cartList.get(i).getName());
 			
 				success=preparedStatement.executeUpdate();
+			}
+			if(success==1) {
+				String sql1="delete from cart where customerId=?";
+				PreparedStatement preparedStatement1=connection.prepareStatement(sql1);
+				preparedStatement1.setInt(1, customerId);
+				
+				preparedStatement1.executeUpdate();
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			log.error(e);

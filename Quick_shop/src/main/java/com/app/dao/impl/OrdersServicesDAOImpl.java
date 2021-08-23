@@ -21,7 +21,7 @@ public class OrdersServicesDAOImpl implements OrdersServicesDAO{
 		Orders orders=null;
 		List<Orders> ordersList=new ArrayList<>();
 		try(Connection connection=MySqlDbConnection.getconnection()){
-			String sql="SELECT id,productId,status,customerId,amount FROM quickshop.orders where customerId=?";
+			String sql="SELECT id,productId,productName,status,customerId,amount FROM quickshop.orders where customerId=?";
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
 			preparedStatement.setInt(1, customerId);
 			
@@ -30,18 +30,13 @@ public class OrdersServicesDAOImpl implements OrdersServicesDAO{
 				orders=new Orders();
 				orders.setId(resultSet.getInt("id"));
 				orders.setProductId(resultSet.getInt("productId"));
+				orders.setProductName(resultSet.getString("productName"));
 				orders.setStatus(resultSet.getString("status"));
 				orders.setCustomerId(resultSet.getInt("customerId"));
 				orders.setAmount(resultSet.getDouble("amount"));
 				ordersList.add(orders);
 			}
-			if(ordersList.size()>0) {
-				String sql1="delete from cart where customerId=?";
-				PreparedStatement preparedStatement1=connection.prepareStatement(sql1);
-				preparedStatement1.setInt(1, customerId);
-				
-				preparedStatement1.executeUpdate();
-			}
+
 		} catch (ClassNotFoundException | SQLException e) {
 			log.error(e);
 			throw new BusinessException("Internal error occured contact Admin");

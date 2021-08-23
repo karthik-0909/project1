@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestQuickShop" project="Quick_shop" tests="1" started="1" failures="0" errors="0" ignored="0">
-  <testsuite name="com.app.TestQuickShop" time="0.064" displayname="TestQuickShop" uniqueid="[engine:junit-jupiter]/[class:com.app.TestQuickShop]">
-    <testcase name="testRegistration" classname="com.app.TestQuickShop" time="0.064" displayname="testRegistration()" uniqueid="[engine:junit-jupiter]/[class:com.app.TestQuickShop]/[method:testRegistration()]"/>
-  </testsuite>
-</testrun>

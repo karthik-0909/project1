@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="TestQuickShop" project="Quick_shop" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.app.TestQuickShop" time="0.516" displayname="TestQuickShop" uniqueid="[engine:junit-jupiter]/[class:com.app.TestQuickShop]">
-    <testcase name="testEmployeeLoginService" classname="com.app.TestQuickShop" time="0.009" displayname="testEmployeeLoginService()" uniqueid="[engine:junit-jupiter]/[class:com.app.TestQuickShop]/[method:testEmployeeLoginService()]"/>
-    <testcase name="testLoginService" classname="com.app.TestQuickShop" time="0.506" displayname="testLoginService()" uniqueid="[engine:junit-jupiter]/[class:com.app.TestQuickShop]/[method:testLoginService()]"/>
-  </testsuite>
-</testrun>

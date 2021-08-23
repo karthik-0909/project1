@@ -1,5 +1,7 @@
 package com.app.model;
 
+import java.util.Objects;
+
 public class Customer {
 	private int id;
 	private String name;
@@ -74,6 +76,25 @@ public class Customer {
 		this.password = password;
 		this.mobileNumber = mobileNumber;
 		this.orderId = orderId;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id, mail, mobileNumber, name, orderId, password);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Customer other = (Customer) obj;
+		return id == other.id && Objects.equals(mail, other.mail) && mobileNumber == other.mobileNumber
+				&& Objects.equals(name, other.name) && orderId == other.orderId
+				&& Objects.equals(password, other.password);
 	}
 	
 	

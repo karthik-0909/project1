@@ -4,4 +4,10 @@
 		<item key="DIALOG_X_ORIGIN" value="652"/>
 		<item key="DIALOG_Y_ORIGIN" value="362"/>
 	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value=""/>
+		<list key="findhistory">
+			<item value=""/>
+		</list>
+	</section>
 </section>

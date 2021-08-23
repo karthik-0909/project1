@@ -1,7 +1,0 @@
-package com.app.login.service;
-
-public interface LoginService {
-	
-	public String loginByMail();
-
-}

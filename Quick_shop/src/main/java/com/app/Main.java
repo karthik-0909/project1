@@ -84,8 +84,9 @@ public class Main {
 								log.info("3.view products by manufacturerName");
 								log.info("4.view products by category");
 								log.info("5.view products by price");
-								log.info("6.Go back to menu");
-								log.info("Please choose a choice between 1-6");
+								log.info("6.place an order");
+								log.info("7.Go back to menu");
+								log.info("Please choose a choice between 1-7");
 								try {
 									choice=Integer.parseInt(scanner.nextLine());
 									}catch(NumberFormatException e){}
@@ -242,10 +243,14 @@ public class Main {
 								
 								cartList=cartServices.ViewCart(customerId);
 								if(cartList.size()>0) {
+									double totalCartValue=0;
 									log.info("Cart loaded successfully");
 									log.info(cartList.size()+" items in your cart");
-									for(Product p1:cartList)
+									for(Product p1:cartList) {
+										totalCartValue+=p1.getPrice(); 
 										log.info(p1);
+									}
+									log.info("\nTotal CartAmount ="+totalCartValue);
 									
 								}else {
 									log.warn("your cart is empty");
