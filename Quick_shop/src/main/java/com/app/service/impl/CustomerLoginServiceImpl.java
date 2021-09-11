@@ -13,7 +13,7 @@ public class CustomerLoginServiceImpl  implements CustomerLoginService{
 	public Customer loginByMail(String mail,String password) throws BusinessException {
 		Customer customer=null;
 		
-		if(mail.matches("[a-z0-9]{5,20}[@gmail.com]{10}")) {
+		if(mail.matches("[a-z0-9._%+-]+@[a-z0-9.9.-]+\\.[a-z]{2,}$")) {
 			
 			if(password.matches("[A-Z]{1}[a-zA-Z0-9]{7,30}")) {
 				
@@ -27,7 +27,7 @@ public class CustomerLoginServiceImpl  implements CustomerLoginService{
 				}
 		}
 		else {
-			throw new BusinessException("Invalid Mail Address "+mail+"\nGmail address should only contain alphabets and numbers.");
+			throw new BusinessException("Invalid Mail Address "+mail+"\nMail address should only contain alphabets and numbers.");
 			}
 		return customer;
 	}

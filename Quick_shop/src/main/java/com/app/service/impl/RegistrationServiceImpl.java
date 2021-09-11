@@ -13,7 +13,7 @@ public class RegistrationServiceImpl implements RegistrtionService{
 		int s=0;
 		if(name.length()!=0 && name.matches("[a-zA-Z]{3,20}")) {
 			
-			if(mail.matches("[a-z0-9]{5,20}[@gmail.com]{10}")) {
+			if(mail.matches("[a-z0-9._%+-]+@[a-z0-9.9.-]+\\.[a-z]{2,}$")) {
 				
 				if(password.matches("[A-Z]{1}[a-zA-Z0-9]{7,30}")) {
 					s=registrationDAO.CreateNewCustomer(name,lastName,mail, password);

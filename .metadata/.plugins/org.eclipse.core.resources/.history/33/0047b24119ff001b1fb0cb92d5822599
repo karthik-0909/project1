@@ -1,9 +1,0 @@
-package com.app.login.service;
-
-import com.app.exception.BusinessException;
-
-public interface CustomerLoginService {
-	
-	public String loginByMail() throws BusinessException;
-
-}

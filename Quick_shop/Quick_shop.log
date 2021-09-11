@@ -2758,3 +2758,22 @@ Welcome karthik, get something new today.
 [main] 2021-08-22 13:13:29 INFO  com.app.Main  - 3)Login as Employee
 [main] 2021-08-22 13:13:29 INFO  com.app.Main  - 4)Exit
 [main] 2021-08-22 13:13:39 INFO  com.app.Main  - Thank u for using the Qucik Shop app
+[main] 2021-09-11 18:40:00 INFO  com.app.Main  - Welcome to Quick Shop App
+[main] 2021-09-11 18:40:00 INFO  com.app.Main  - -----------------------------
+[main] 2021-09-11 18:40:00 INFO  com.app.Main  - 
+------Main menu------
+[main] 2021-09-11 18:40:00 INFO  com.app.Main  - 1)Login as Customer
+[main] 2021-09-11 18:40:00 INFO  com.app.Main  - 2)Register as New Customer
+[main] 2021-09-11 18:40:00 INFO  com.app.Main  - 3)Login as Employee
+[main] 2021-09-11 18:40:00 INFO  com.app.Main  - 4)Exit
+[main] 2021-09-11 18:40:05 INFO  com.app.Main  - ------Login Page------
+[main] 2021-09-11 18:40:05 INFO  com.app.Main  - Enter your mail address
+[main] 2021-09-11 18:40:21 INFO  com.app.Main  - Enter your password
+[main] 2021-09-11 18:40:30 INFO  com.app.Main  - Login successuful
+[main] 2021-09-11 18:40:30 INFO  com.app.Main  - 
+Welcome karthik, get something new today.
+[main] 2021-09-11 18:40:30 INFO  com.app.Main  - 1.search products
+[main] 2021-09-11 18:40:30 INFO  com.app.Main  - 2.view orders
+[main] 2021-09-11 18:40:30 INFO  com.app.Main  - 3.view  cart
+[main] 2021-09-11 18:40:30 INFO  com.app.Main  - 4.logout
+[main] 2021-09-11 18:40:30 INFO  com.app.Main  - Enter your choice

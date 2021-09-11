@@ -50,10 +50,15 @@ class TestQuickShop {
 //	}
 
 	@Test
-	void testLoginService() throws BusinessException {
+	void testLoginService()  {
 		CustomerLoginService customerLoginService=new CustomerLoginServiceImpl();
 		Customer customer= new Customer(16,"rakesh","rakesh@gmail.com","Rakesh12",0,0);
-			assertEquals(customer, customerLoginService.loginByMail("rakesh@gmail.com", "Rakesh12"));
+			try {
+				assertEquals(customer, customerLoginService.loginByMail("rakesh@gmail.com", "Rakesh12"));
+			} catch (BusinessException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 	}
 //	@Test
 //	void testEmployeeLoginService() {

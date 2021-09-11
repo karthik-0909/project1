@@ -53,7 +53,7 @@ public class Main {
 				int goback=0;
 				CustomerLoginService customerLoginService= new CustomerLoginServiceImpl();
 					log.info("------Login Page------");
-					log.info("Enter your gmail address");
+					log.info("Enter your mail address");
 					String mail=scanner.nextLine();
 					log.info("Enter your password");
 					String password=scanner.nextLine();
